@@ -27,7 +27,7 @@ def main():
                     	help='Size of the sliding window used.')
 	args = parser.parse_args()
 
-	if args.sliding_window == True and sliding_window_size == 0:
+	if args.sliding_window == True and args.sliding_window_size == 0:
 		raise argparse.ArgumentError("Can't use sliding without precising its size")
 
 	dataset = load_data(args)
@@ -35,7 +35,7 @@ def main():
 	X = dataset[0]
 	y = dataset[1]
 
-	clf = MLPClassifier(hidden_layer_sizes=(30,), activation='tanh', solver='sgd',
+	clf = MLPClassifier(hidden_layer_sizes=(100,), activation='tanh', solver='sgd',
 						learning_rate='adaptive', max_iter=200, shuffle=True,
 						verbose=True)
 

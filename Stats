@@ -1,0 +1,42 @@
+Stats
+49% :
+batch_size : 128
+max_features : 256
+decay_rate : 70 epoch / 0.5
+
+55%:
+batch_size : 128
+max_features : 376
+no_decay
+
+Tests réalisés :
+
+Feature size : 256 -> pas d'influence majeure du decay_rate
+Feature size  256 -> 1014 : très mauvais résultats
+Feature size 256 -> ajouts des vec de 0 dans les inputs -> 0 modifs
+Feature size 150, vec0 -> 40%
+Feature size 376 (1014/70 * 26), vec1 -> Meilleurs résultats ! 55%
+Feature size 376, vec1, b_s : 256 -> moins bonne accuracy, meilleure loss ? A voir plus de 300 epochs (lr 0.005)
+Feature size 376, vec1, b_s : 128 -> 57%
+Feature size 1014, vec1, b_s : 128 -> Pas bon
+Feature size 376, vec_1, lr = 0.001 : 58%
+Bold scheduler -> DÉCONSEILLÉ ! Trop lent
+Feature size 500, vec_0, lr = 0.01 ->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A TESTER]
+
+Mettre [-1] * len au loin de [0] * len

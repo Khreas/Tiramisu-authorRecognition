@@ -21,10 +21,15 @@ Feature size 376, vec1, b_s : 128 -> 57%
 Feature size 1014, vec1, b_s : 128 -> Pas bon
 Feature size 376, vec_1, lr = 0.001 : 58%
 Bold scheduler -> DÉCONSEILLÉ ! Trop lent
-Feature size 500, vec_0, lr = 0.01 ->
+Feature size 500, vec_0, lr = 0.01 -> Peu de changement
+Feature size 376, vec_0, lr = 0.01, 1 conv en moins
+Enlever un conv -> moins bons résultats
 
 
-
+TODO:
+	Filters
+	Kernel
+	Activation
 
 
 

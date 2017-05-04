@@ -13,7 +13,7 @@ from keras.models import load_model
 from keras.optimizers import SGD, Adadelta
 from keras.callbacks import EarlyStopping, TensorBoard, ModelCheckpoint, LearningRateScheduler, Callback
 from keras.utils import plot_model
-from keras.initializers import RandomUniform
+from keras.initializers import RandomUniform, TruncatedNormal
 
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve
 
@@ -336,6 +336,12 @@ def train_model(x_train, y_train, x_test, y_test):
                      strides=1))
 
     model.add(MaxPooling1D(pool_size = 2, strides=None))
+
+    model.add(Conv1D(filters,
+                     kernel_size[1],
+                     activation='relu',
+                     kernel_initializer=random_uni,
+                     strides=1))
 
     model.add(Conv1D(filters,
                      kernel_size[1],

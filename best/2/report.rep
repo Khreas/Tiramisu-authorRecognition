@@ -1,0 +1,3 @@
+batch_size : 128
+max_features : 376
+no_decay

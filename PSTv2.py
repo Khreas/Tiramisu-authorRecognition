@@ -13,11 +13,12 @@ from keras.models import load_model
 from keras.optimizers import SGD, Adadelta
 from keras.callbacks import EarlyStopping, TensorBoard, ModelCheckpoint, LearningRateScheduler, Callback
 from keras.utils import plot_model
-from keras.initializers import RandomUniform, TruncatedNormal
+from keras.initializers import RandomUniform, RandomNormal
 
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve
 
 from random import shuffle
+from shutil import copy
 
 import keras.backend as K
 import time
@@ -316,10 +317,45 @@ def print_confusion_matrix(args, model, X_test, Y_test, save_dir):
 
 def train_model(x_train, y_train, x_test, y_test):
 
+    class Antirectifier(keras.layers.Layer):
+    '''This is the combination of a sample-wise
+    L2 normalization with the concatenation of the
+    positive part of the input with the negative part
+    of the input. The result is a tensor of samples that are
+    twice as large as the input samples.
+    It can be used in place of a ReLU.
+    # Input shape
+        2D tensor of shape (samples, n)
+    # Output shape
+        2D tensor of shape (samples, 2*n)
+    # Theoretical justification
+        When applying ReLU, assuming that the distribution
+        of the previous output is approximately centered around 0.,
+        you are discarding half of your input. This is inefficient.
+        Antirectifier allows to return all-positive outputs like ReLU,
+        without discarding any data.
+        Tests on MNIST show that Antirectifier allows to train networks
+        with twice less parameters yet with comparable
+        classification accuracy as an equivalent ReLU-based network.
+    '''
+
+    def compute_output_shape(self, input_shape):
+        shape = list(input_shape)
+        assert len(shape) == 2  # only valid for 2D tensors
+        shape[-1] *= 2
+        return tuple(shape)
+
+    def call(self, inputs):
+        inputs -= K.mean(inputs, axis=1, keepdims=True)
+        inputs = K.l2_normalize(inputs, axis=1)
+        pos = K.relu(inputs)
+        neg = K.relu(-inputs)
+	return K.concatenate([pos, neg], axis=1)
+
     print('\n[Building Model]')
     model = Sequential()
 
-    random_uni = TruncatedNormal(mean = 0.0, stddev = 0.05, seed = None)
+    random_uni = RandomNormal(mean = 0.0, stddev = 0.05, seed = None)
 
     def custom_sigmoid_activation(x):
         return 1.7159*K.tanh(2/3*x)
@@ -329,6 +365,8 @@ def train_model(x_train, y_train, x_test, y_test):
                      kernel_initializer=random_uni,
                      activation='relu',
                      input_shape=(max_features,vect_size)))
+
+    model.add(Antirectifier())
     
     model.add(MaxPooling1D(pool_size = 2, strides=None))
 
@@ -338,6 +376,8 @@ def train_model(x_train, y_train, x_test, y_test):
                      kernel_initializer=random_uni,
                      strides=1))
 
+    model.add(Antirectifier())
+
     model.add(MaxPooling1D(pool_size = 2, strides=None))
 
     model.add(Conv1D(filters,
@@ -346,17 +386,23 @@ def train_model(x_train, y_train, x_test, y_test):
                      kernel_initializer=random_uni,
                      strides=1))
 
-    model.add(Conv1D(filters,
-                     kernel_size[1],
-                     activation='relu',
-                     kernel_initializer=random_uni,
-                     strides=1))
+    model.add(Antirectifier())
 
     model.add(Conv1D(filters,
                      kernel_size[1],
                      activation='relu',
                      kernel_initializer=random_uni,
                      strides=1))
+
+    model.add(Antirectifier())
+
+    model.add(Conv1D(filters,
+                     kernel_size[1],
+                     activation='relu',
+                     kernel_initializer=random_uni,
+                     strides=1))
+
+    model.add(Antirectifier)
 
     # # we use max pooling:
     model.add(MaxPooling1D(pool_size = 2, strides=None))
@@ -409,7 +455,7 @@ def train_model(x_train, y_train, x_test, y_test):
     lr_decay = LearningRateScheduler(scheduler)
     bold_decay = BoldScheduler()
 
-    model.compile(loss='mean_squared_error',
+    model.compile(loss='categorical_crossentropy',
                   optimizer=sgd,
                   metrics=['categorical_accuracy'])
 
@@ -432,7 +478,9 @@ def train_model(x_train, y_train, x_test, y_test):
               shuffle=True,
               callbacks=[checkpointer, tensorVizualisation])
 
-    model.save(args.save_dir + '/last.hdf5')
+    #model.save(args.save_dir + '/last.hdf5')
+
+    copy(args.log_dir + '/model.hdf5', args.save_dir + '/last.hdf5')
 
     return model
     
@@ -445,10 +493,10 @@ if __name__ == '__main__':
     y_train = to_categorical(y_train, get_auth_number())
     y_test = to_categorical(y_test, get_auth_number())
 
-    for index, element in enumerate(y_train):
-        for index2, element2 in enumerate(element):
-            if element2 == 0:
-                y_train[index][index2] = -1.0
+    # for index, element in enumerate(y_train):
+    #     for index2, element2 in enumerate(element):
+    #         if element2 == 0:
+    #             y_train[index][index2] = -1.0
 
 
     log_dir = './logs/CNN_MaxF' + str(max_features) + '_BS' + str(batch_size) + '_LenAlph' + str(len(alphabet))
@@ -456,6 +504,7 @@ if __name__ == '__main__':
     if os.path.isdir(log_dir):
         for element in os.listdir(log_dir):
             element_in_dir.append(element)
+        element_in_dir.sort()
         if element_in_dir != []:
             log_dir += '/' + str(int(element_in_dir[-1]) + 1)
     else:

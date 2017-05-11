@@ -260,7 +260,7 @@ def load_data():
                                             memory = memory[1:]
                                             memory.append(character)                                                                    
 
-    forbidden_vec = [0]*len(alphabet)
+    forbidden_vec = [-1]*len(alphabet)
     forbidden_vec = numpy.array(forbidden_vec)
     #F11
     assert all(len(element) == max_features for element in train_set_x), "Length of train_set_x matrices isn't equal to max_feature !"
@@ -321,10 +321,13 @@ def train_model(x_train, y_train, x_test, y_test):
 
     random_uni = TruncatedNormal(mean = 0.0, stddev = 0.05, seed = None)
 
+    def custom_sigmoid_activation(x):
+        return 1.7159*K.tanh(2/3*x)
+
     model.add(Conv1D(filters,
                      kernel_size[0],
-                     activation='relu',
                      kernel_initializer=random_uni,
+                     activation='relu',
                      input_shape=(max_features,vect_size)))
     
     model.add(MaxPooling1D(pool_size = 2, strides=None))
@@ -336,12 +339,6 @@ def train_model(x_train, y_train, x_test, y_test):
                      strides=1))
 
     model.add(MaxPooling1D(pool_size = 2, strides=None))
-
-    model.add(Conv1D(filters,
-                     kernel_size[1],
-                     activation='relu',
-                     kernel_initializer=random_uni,
-                     strides=1))
 
     model.add(Conv1D(filters,
                      kernel_size[1],
@@ -412,7 +409,7 @@ def train_model(x_train, y_train, x_test, y_test):
     lr_decay = LearningRateScheduler(scheduler)
     bold_decay = BoldScheduler()
 
-    model.compile(loss='binary_crossentropy',
+    model.compile(loss='mean_squared_error',
                   optimizer=sgd,
                   metrics=['categorical_accuracy'])
 
@@ -447,6 +444,12 @@ if __name__ == '__main__':
     x_test = sequence.pad_sequences(x_test)
     y_train = to_categorical(y_train, get_auth_number())
     y_test = to_categorical(y_test, get_auth_number())
+
+    for index, element in enumerate(y_train):
+        for index2, element2 in enumerate(element):
+            if element2 == 0:
+                y_train[index][index2] = -1.0
+
 
     log_dir = './logs/CNN_MaxF' + str(max_features) + '_BS' + str(batch_size) + '_LenAlph' + str(len(alphabet))
     element_in_dir = []

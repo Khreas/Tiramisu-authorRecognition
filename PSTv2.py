@@ -41,6 +41,8 @@ parser.add_argument('--no_reports_saved', help='Option indicating that no report
 parser.add_argument('--save_dir', type=str, default='./save', help='Directory in which the LAST model should be saved.')
 parser.add_argument('--reports_dir', type=str, default='logs', help='Directory in which the reports are located. Default "logs" means that they should be saved only with the logs.')
 parser.add_argument('--newdata', help='Boolean indicating if we load the data from text files directly', action="store_true")
+parser.add_argument('--showbest', help='Show the reports related to the best model obtained so far', action="store_true")
+parser.add_argument('--message', type=str, default='', help='Message indicating the purpose of the training. It will be stored in the report file')
 
 
 args = parser.parse_args()
@@ -185,6 +187,7 @@ def print_confusion_matrix(args, model, X_test, Y_test, save_dir):
         with open(os.path.join(save_dir, filename), 'w') as output:
             sys.stdout = output
             print("Training : " + time.strftime("%d/%m/%Y") + " " + time.strftime("%H:%M:%S") + '\n\n')
+            print(args.message)
             print("[ARCHITECTURE]\n\n")
             print(model.summary(), '\n\n')
             print('\n\n[CLASSIFICATION REPORT]\n\n',classification_report(numpy.argmax(Y_test,axis=1), y_pred,target_names=target_names))
@@ -221,12 +224,18 @@ def train_model(x_train, y_train, x_test, y_test):
     model.add(MaxPooling1D(pool_size = 2, strides=None))
 
     model.add(Conv1D(filters,
-                     kernel_size[1],
+                     kernel_size[0],
                      kernel_initializer=random_uni,
                      strides=1,
                      activation='relu'))
 
     model.add(MaxPooling1D(pool_size = 2, strides=None))
+
+    model.add(Conv1D(filters,
+                     kernel_size[1],
+                     kernel_initializer=random_uni,
+                     strides=1,
+                     activation='relu'))
 
     model.add(Conv1D(filters,
                      kernel_size[1],
@@ -338,7 +347,15 @@ if __name__ == '__main__':
     if args.train == True:
         model = train_model(x_train, y_train, x_test, y_test)
 
-    model = load_model(os.path.join(args.save_dir, 'last.hdf5'))
+    if args.showbest == True:
+        model = load_model(os.path.join('best', '75', 'model.hdf5'))  
+        print('\n Successfully loaded model from ' + os.path.join('best', '75', 'model.hdf5') + '\n')
+  
+    else:
+        model = load_model(os.path.join(args.save_dir, 'last.hdf5'))
+        print('\n Successfully loaded model from ' + os.path.join(args.save_dir, 'last.hdf5') + '\n')
+
+    
     print('\n Successfully loaded model from ' + os.path.join(args.save_dir, 'last.hdf5') + '\n')
 
     print("\n[Reports creation]")

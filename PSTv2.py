@@ -23,6 +23,10 @@ from random import shuffle
 from shutil import copy
 
 import keras.backend as K
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+import itertools
 import gzip
 import pickle
 import time
@@ -42,7 +46,7 @@ parser.add_argument('--save_dir', type=str, default='./save', help='Directory in
 parser.add_argument('--reports_dir', type=str, default='logs', help='Directory in which the reports are located. Default "logs" means that they should be saved only with the logs.')
 parser.add_argument('--newdata', help='Boolean indicating if we load the data from text files directly', action="store_true")
 parser.add_argument('--showbest', help='Show the reports related to the best model obtained so far', action="store_true")
-parser.add_argument('--message', type=str, default='', help='Message indicating the purpose of the training. It will be stored in the report file')
+parser.add_argument('-m', type=str, default='', help='Message indicating the purpose of the training. It will be stored in the report file')
 
 
 args = parser.parse_args()
@@ -119,7 +123,7 @@ def load_data_text():
                     target = count_author
                     example_vector = []
                     for line in text:
-                        for character in line:
+                        for character in line.lower():
                             if character in alphabet:
                                 letter_vector = [0] * len(alphabet)
                                 letter_vector[alphabet.index(character)] = 1
@@ -147,6 +151,16 @@ def load_data_text():
     train_set_y = to_categorical(train_set_y, get_auth_number())
     test_set_y = to_categorical(test_set_y, get_auth_number())
 
+    # for idx, element in enumerate(test_set_x):
+    #     for idx_val, val in enumerate(element):
+    #         if val == 0:
+    #             test_set_x[idx][idx_val] = -1
+
+    # for idx, element in enumerate(train_set_x):
+    #     for idx_val, val in enumerate(element):
+    #         if val == 0:
+    #             test_set_x[idx][idx_val] = -1
+
     print('\n[Loading data : done]')
 
     with gzip.GzipFile(os.path.join('Text', 'formatted_data.pkl.gzip'), 'wb') as pkl_file:
@@ -159,6 +173,45 @@ def load_data_text():
 
 def print_confusion_matrix(args, model, X_test, Y_test, save_dir):
 
+    # Plot the confusion matrix in a neat way ; can be saved as a PNG file afterwards
+    def plot_confusion_matrix(cm, classes,
+                          normalize=False,
+                          title='Confusion matrix',
+                          cmap=plt.cm.Blues, precision=2):
+        """
+        This function prints and plots the confusion matrix.
+        Normalization can be applied by setting `normalize=True`.
+        """
+        plt.imshow(cm, interpolation='nearest', cmap=cmap)
+        plt.title(title)
+        plt.colorbar()
+        tick_marks = numpy.arange(len(classes))
+        plt.xticks(tick_marks, classes, rotation=45)
+        plt.yticks(tick_marks, classes)
+
+        if normalize:
+            numpy.set_printoptions(precision=precision)
+            cm = cm.astype('float') / cm.sum(axis=1)[:, numpy.newaxis]
+            for idx_vec, vector in enumerate(cm):
+                for idx_element, element in enumerate(vector):
+                    cm[idx_vec][idx_element] = round(element, 2)
+            print("Normalized confusion matrix")
+        else:
+            print('Confusion matrix, without normalization')
+
+        print(cm)
+
+        thresh = cm.max() / 2.
+        for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+            plt.text(j, i, cm[i, j],
+                     horizontalalignment="center",
+                     color="white" if cm[i, j] > thresh else "black")
+
+        plt.tight_layout()
+        plt.ylabel('True label')
+        plt.xlabel('Predicted label')
+
+    # Initialization of the names of the authors
     if target_names == []:
         for subdir in next(os.walk("Text"))[1]:
             if os.listdir(os.path.join("Text", subdir)):
@@ -173,8 +226,12 @@ def print_confusion_matrix(args, model, X_test, Y_test, save_dir):
     print("\n\n     [Reports]")
     print("             [Classification Report]\n")
     print(classification_report(numpy.argmax(Y_test,axis=1), y_pred,target_names=target_names))
-    print("             [Confusion matrix]\n")
-    print(confusion_matrix(numpy.argmax(Y_test,axis=1), y_pred))
+    print("             [Normalized confusion matrix]\n")
+    conf_mat = confusion_matrix(numpy.argmax(Y_test,axis=1), y_pred)
+    plt.figure()
+    plot_confusion_matrix(conf_mat, classes = target_names, normalize = True, title='Normalized confusion matrix', precision=3)
+    plt.show()
+
 
     if args.no_reports_saved == False:
 
@@ -187,7 +244,7 @@ def print_confusion_matrix(args, model, X_test, Y_test, save_dir):
         with open(os.path.join(save_dir, filename), 'w') as output:
             sys.stdout = output
             print("Training : " + time.strftime("%d/%m/%Y") + " " + time.strftime("%H:%M:%S") + '\n\n')
-            print(args.message)
+            print(args.m)
             print("[ARCHITECTURE]\n\n")
             print(model.summary(), '\n\n')
             print('\n\n[CLASSIFICATION REPORT]\n\n',classification_report(numpy.argmax(Y_test,axis=1), y_pred,target_names=target_names))
@@ -216,52 +273,55 @@ def train_model(x_train, y_train, x_test, y_test):
 
     # We follow the architecture given here : https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf
     model.add(Conv1D(filters,
-                     kernel_size[0],
+                     kernel_size[1],
                      kernel_initializer=random_uni,
-                     input_shape=(max_features,vect_size),
-                     activation='relu'))
+                     input_shape=(max_features,vect_size)))
+    model.add(BatchNormalization())
+    model.add(Activation('relu'))
     
     model.add(MaxPooling1D(pool_size = 2, strides=None))
 
     model.add(Conv1D(filters,
-                     kernel_size[0],
+                     kernel_size[1],
                      kernel_initializer=random_uni,
-                     strides=1,
-                     activation='relu'))
+                     strides=1))
+    model.add(BatchNormalization())
+    model.add(Activation('relu'))
 
     model.add(MaxPooling1D(pool_size = 2, strides=None))
 
     model.add(Conv1D(filters,
                      kernel_size[1],
                      kernel_initializer=random_uni,
-                     strides=1,
-                     activation='relu'))
+                     strides=1))
+    model.add(BatchNormalization())
+    model.add(Activation('relu'))
 
     model.add(Conv1D(filters,
                      kernel_size[1],
                      kernel_initializer=random_uni,
-                     strides=1,
-                     activation='relu'))
+                     strides=1))
+    model.add(BatchNormalization())
+    model.add(Activation('relu'))
 
     model.add(Conv1D(filters,
                      kernel_size[1],
                      kernel_initializer=random_uni,
-                     strides=1,
-                     activation='relu'))
-
-    model.add(Conv1D(filters,
-                     kernel_size[1],
-                     kernel_initializer=random_uni,
-                     strides=1,
-                     activation='relu'))
+                     strides=1))
+    model.add(BatchNormalization())
+    model.add(Activation('relu'))
 
     model.add(MaxPooling1D(pool_size = 2, strides=None))
 
     model.add(Flatten())
 
-    model.add(Dense(hidden_dims, kernel_initializer=random_uni, activation='sigmoid'))
+    model.add(Dense(hidden_dims, kernel_initializer=random_uni))
+    model.add(BatchNormalization())
+    model.add(Activation('sigmoid'))
     model.add(Dropout(0.5))
-    model.add(Dense(hidden_dims, kernel_initializer=random_uni, activation='sigmoid'))
+    model.add(Dense(hidden_dims, kernel_initializer=random_uni))
+    model.add(BatchNormalization())
+    model.add(Activation('sigmoid'))
     model.add(Dropout(0.5))
     model.add(Dense(get_auth_number(), kernel_initializer=random_uni, activation='softmax'))
 
@@ -323,6 +383,8 @@ def train_model(x_train, y_train, x_test, y_test):
     
 if __name__ == '__main__':
 
+    # Loading and clearing the texts is relatively long -> we load the data from a file in which we have
+    # already stored our data, correctly formated
     if args.newdata == True:
       x_train, y_train, x_test, y_test = load_data_text()
 

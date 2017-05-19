@@ -62,14 +62,14 @@ filters = '!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\nàâäéèëêîìíïôöûüù�
 
 
 vect_size = len(alphabet)
-batch_size = 128
+batch_size = 256
 filters = 256
 kernel_size = [7, 3]
-hidden_dims = 1024
+hidden_dims = 2048
 epochs = 300
 pool_size = 2
 epoch_decay = 60
-initial_lr = 0.01
+initial_lr = 0.001
 decay_rate = 0.5
 max_features = 376
 

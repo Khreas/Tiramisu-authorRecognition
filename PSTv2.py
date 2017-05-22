@@ -62,7 +62,7 @@ filters = '!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\nàâäéèëêîìíïôöûüù�
 
 
 vect_size = len(alphabet)
-batch_size = 256
+batch_size = 128
 filters = 256
 kernel_size = [7, 3]
 hidden_dims = 2048
@@ -90,6 +90,18 @@ def load_data_save():
       x_train, y_train, x_test, y_test = (pickle.load(pkl_file))
 
     return [x_train, y_train, x_test, y_test]
+
+def hotToString(matrix=None, author=None):
+
+    if matrix != None:
+        sentence = ''
+        for element in matrix:
+            sentence += alphabet[list(element).index(1)]
+    
+    if author != None:
+        author = target_names[list(author).index(1)]
+
+    return (sentence, author)
 
 def load_data_text():
     # The following loads and format the data stored in the folder named "Text"
@@ -217,7 +229,50 @@ def print_confusion_matrix(args, model, X_test, Y_test, save_dir):
             if os.listdir(os.path.join("Text", subdir)):
                 target_names.append(subdir)
 
-    y_pred = model.predict_classes(X_test)
+    def predictAndGetBestWorstBatch(matrices, authors):
+
+        # In order: sentence, author, accuracy
+        best_batch = [[], [], 0]
+        worst_batch = [[], [], 1]
+
+        y_pred = []
+
+        # For each matrix of the input we'll predict its class and determine if it's the best / worst sample
+        # we've dealt with so far
+        for idx, element in enumerate(matrices):
+
+            matrix_to_send = []
+            matrix_to_send.append(element)
+
+            matrix_to_send = numpy.array(matrix_to_send)
+
+            b_pred = model.predict_classes(matrix_to_send, verbose=0)
+            sys.stdout.write("\r" + str(idx) + ' / ' + str(len(matrices)))
+            sys.stdout.flush()
+            y_pred.append(b_pred[0])
+
+            f = K.function([model.get_input(train=False)], [layer.get_output(train=False)])
+
+            if max(list(model.layers[-1].output)) > best_batch[2]:
+                best_batch[0], best_batch[1] = hotToString(matrices[idx], authors[idx])
+                best_batch[2] = max(list(model.layers[-1].output))
+
+            elif max(list(model.layers[-1].output)) < worst_batch[2]:
+                worst_batch[0], worst_batch[1] = hotToString(matrices[idx], authors[idx])
+                worst_batch[2] = max(list(model.layers[-1].output))
+
+        sys.stdout.write("\n")
+        return (best_batch, worst_batch, y_pred)
+
+    # y_pred = model.predict_classes(X_test)
+    best, worst, y_pred = predictAndGetBestWorstBatch(X_test, Y_test)
+
+    print("\n\n     [Best]")
+    print(best)
+
+    print("\n\n     [Worst]")
+    print(worst)
+    
     print("\n\n     [Predictions]")
     print(y_pred)
     print("\n\n     [Expected]")

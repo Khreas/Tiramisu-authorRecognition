@@ -1,0 +1,43 @@
+.center{
+	text-align: center;
+}
+
+.justify{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+h1{
+	font-weight: bold;
+}
+
+.panel-footer.panel-custom {
+    background: blue;
+    color: white;
+    width:20%;
+    float:right;
+}
+
+.fixed-panel {
+  height:200px;
+  overflow-y:scroll;
+  width:100%;
+}
+
+.image-author{
+	width:120px;
+	height:inherit;
+}
+
+.panel-body.no-padding{
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}

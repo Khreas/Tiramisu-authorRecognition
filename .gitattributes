@@ -1,2 +1,13 @@
 *.z240-HP filter=lfs diff=lfs merge=lfs -text
-*.gzip filter=lfs diff=lfs merge=lfs -text
+model.png filter=lfs diff=lfs merge=lfs -text
+docs/resources/Text.zip filter=lfs diff=lfs merge=lfs -text
+docs/resources/best_model.hdf5.zip filter=lfs diff=lfs merge=lfs -text
+docs/img/archi_result.png filter=lfs diff=lfs merge=lfs -text
+docs/img/conv_example.png filter=lfs diff=lfs merge=lfs -text
+docs/img/reports_cmd.png filter=lfs diff=lfs merge=lfs -text
+docs/img/tensorboard.png filter=lfs diff=lfs merge=lfs -text
+docs/img/archi_author.png filter=lfs diff=lfs merge=lfs -text
+docs/img/archi_rawfiles.png filter=lfs diff=lfs merge=lfs -text
+save/last.hdf5 filter=lfs diff=lfs merge=lfs -text
+site/resources/best_model.hdf5.zip filter=lfs diff=lfs merge=lfs -text
+site/resources/Text.zip filter=lfs diff=lfs merge=lfs -text

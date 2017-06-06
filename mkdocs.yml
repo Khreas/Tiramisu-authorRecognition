@@ -1,0 +1,24 @@
+site_name: Tiramisu
+
+#yeti, material, united, flatly
+
+theme: yeti
+
+repo_url: https://github.com/Khreas/Tiramisu-authorRecognition
+
+pages:
+  - Home: index.md
+  - Getting started:
+    - Author recognition: author_recognition_guide.md
+    - Text generation: text_generation_guide.md
+    - Gutenberg crawler: crawler_guide.md
+  - Code explanation:
+    - Author recognition: author_recognition.md
+    - Text generation: text_generation.md
+    - Gutenberg crawler: crawler.md
+  - Examples:
+    - Author recognition: example_auth.md
+    - Text generation: example_textgen.md
+  - Resources: resources.md
+  - About: about.md
+  - FAQ: faq.md

@@ -11,3 +11,9 @@ docs/img/archi_rawfiles.png filter=lfs diff=lfs merge=lfs -text
 save/last.hdf5 filter=lfs diff=lfs merge=lfs -text
 site/resources/best_model.hdf5.zip filter=lfs diff=lfs merge=lfs -text
 site/resources/Text.zip filter=lfs diff=lfs merge=lfs -text
+best/75/model.hdf5 filter=lfs diff=lfs merge=lfs -text
+Text/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
+Test/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
+Zipped[[:space:]]texts/10[[:space:]]lines[[:space:]]changed/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
+Zipped[[:space:]]texts/One[[:space:]]author[[:space:]]changed/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
+Zipped[[:space:]]texts/Training/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text

@@ -4,6 +4,10 @@ logs/
 # Removes the save files
 save/
 
+# Removes pyc and pycache
+__pycache__/
+*.pyc
+
 # Removes the sources of the input
 Text/Balzac/*.txt
 Text/Hugo/*.txt

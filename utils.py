@@ -9,7 +9,10 @@ import random
 import keras
 import string
 import io
+import collections
+import operator
 
+from PIL import Image
 from os.path import isfile, join
 from os import listdir
 
@@ -264,3 +267,30 @@ def hotToString(hyperparameters, matrix=None, author=None):
 		author = hyperparameters['target_names'][author]
 
 	return (sentence, author)
+
+# Convert a sample to an image
+# The darker the most used
+def sampleToImage(sample, ratio=1):
+	size = (len(sample[0]), len(sample))
+	real_picture = []
+	list_sample = []
+	for element in sample:
+		list_sample.append(tuple(element))
+	occurences_count = collections.Counter(list_sample)
+	max_occ = max(occurences_count.items(), key=operator.itemgetter(1))[1]
+
+	for element in sample:
+		for value in element:
+			if value == 0:
+				real_picture.append(tuple([0,0,0]))
+			else:
+				occ = occurences_count[tuple(element)]
+				rgb_value = int((occ / max_occ) * 255)
+				real_picture.append(tuple([rgb_value, rgb_value, rgb_value]))
+
+	im = Image.new("RGB", size)
+	im.putdata(real_picture)
+	if ratio != 1:
+		im = im.resize((size[0] * ratio, size[1] * ratio))
+	im = im.rotate(-90, expand=True)
+	im.show()

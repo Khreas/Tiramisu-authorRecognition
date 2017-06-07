@@ -2,7 +2,7 @@
 
 # Import from files in the same directory
 from network import train_model, print_confusion_matrix, print_statistics
-from utils import load_text_from_save, load_data_test, load_data_text
+from utils import load_text_from_save, load_data_test, load_data_text, sampleToImage
 
 # Import packages. A bare `pip3 install foo` should do the trick
 import logging
@@ -11,6 +11,8 @@ import os
 import json
 import signal, psutil
 import shutil
+import numpy
+import sys
 
 from multiprocessing import Process
 from flask import Flask, render_template, request
@@ -155,6 +157,9 @@ if __name__ == '__main__':
 			x_train, y_train, x_test, y_test = load_text_from_save()
 
 		print("Loading done")
+
+		sampleToImage(x_train[-2], ratio=3)
+		sys.exit()
 
 		### Training the model
 		if args.train == True:

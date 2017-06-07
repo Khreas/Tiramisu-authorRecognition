@@ -17,3 +17,4 @@ Test/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
 Zipped[[:space:]]texts/10[[:space:]]lines[[:space:]]changed/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
 Zipped[[:space:]]texts/One[[:space:]]author[[:space:]]changed/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
 Zipped[[:space:]]texts/Training/formatted_data.pkl.gzip filter=lfs diff=lfs merge=lfs -text
+static/* linguist-vendored

@@ -1,0 +1,1504 @@
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+degranvilleestmishorslaloisateteestmiseaprixilserapayeaquilelivreramortouvivantlasommedesoixantemillelivrescettesommeneserapointpayeeenassignatsmaisenorunbataillondelarmeedescotesdecherbourgseraimmediatementenvoyealarencontreetalarechercheducidevantmarquisdelantenaclescommunessontrequisesdepretermainfortefaitenlamaisoncommunedegranvillelejuinsigneaudessousdecenomilyavaitune
+
+Actual text:
+None
+[Hugo] -> 1.00000
+
+Sample:
+tsolidesgauvainavaitreussilasurpriseetmanqueladerouteilavaitmispiedaterreattentifayantsonepeeaupoingsoussesbrascroisesdeboutdanslalueurdunetorchequieclairaitsabatterieilregardaittoutecetteombresahautetailledanscetteclartelefaisaitvisibleauxhommesdelabarricadeiletaitlepointdemiremaisilnysongeaitpaslesvoleesdeballesquenvoyaitlabarricadesabattaientautourdegauvainpensifmaiscont
+
+Actual text:
+par où passaient leurs carabines. Par ces trous leur fusillade était
+meurtrière. Tout cela se fit vite. En un quart d'heure la halle eut un
+front imprenable.
+Ceci devenait grave pour Gauvain. Cette halle brusquement transformée en
+citadelle, c'était l'inattendu. Les paysans étaient là, massés et solides.
+[[Gauvain avait réussi la surprise et manqué la déroute. Il avait mis pied à
+terre. Attentif, ayant son épée au poing sous ses bras croisés, debout dans
+la lueur d'une torche qui éclairait sa batterie, il regardait toute cette
+ombre.
+Sa haute taille dans cette clarté le faisait visible aux hommes de la]]
+barricade. Il était le point de mire, mais il n'y songeait pas.
+Les volées de balles qu'envoyait la barricade s'abattaient autour de
+Gauvain pensif.
+Mais contre toutes ces carabines il avait du canon. Le boulet finit
+toujours par avoir raison. Qui a l'artillerie a la victoire. Sa batterie,
+bien servie, lui assurait la supériorité.
+
+[Proust] -> 1.00000
+
+Sample:
+elestroisetagesduchateaudupontellerestauntempsquelconquecarlesmesuresdutempsseffacaientdanssonespritabsorbeeetmuettedevantceravinbeantetcettebatissetenebreusequetaitcequecelaquesepassaitillaetaitcelatourgueelleavaitlevertigedonnesaitquelleattentequiressemblaitalarriveeetaudepartellesedemandaitpourquoielleetaitlaelleregardaitelleecoutaitsubitementellenevitplusrienunvoiledefu
+
+Actual text:
+elle n'en avait pas été aperçue.
+Elle était parvenue au bord du plateau, si près du pont qu'il lui semblait
+presque qu'elle y pouvait toucher avec la main. La profondeur du ravin l'en
+séparait. Elle distinguait dans l'ombre les trois étages du château du
+pont.
+[[Elle resta un temps quelconque, car les mesures du temps s'effaçaient dans
+son esprit, absorbée et muette devant ce ravin béant et cette bâtisse
+ténébreuse. Qu'était-ce que cela? Que se passait-il là? Etait-ce la
+Tourgue? Elle avait le vertige d'on ne sait quelle attente qui ressemblait
+à l'arrivée et au départ. Elle se demandait pourquoi elle était là.
+Elle regardait, elle écoutait.]]
+Subitement elle ne vit plus rien.
+Un voile de fumée venait de monter entre elle et ce qu'elle regardait. Une
+âcre cuisson lui fit fermer les yeux. A peine avait-elle clos les paupières
+qu'elles s'empourprèrent et devinrent lumineuses. Elle les rouvrit.
+Ce n'était plus la nuit qu'elle avait devant elle, c'était le jour; mais
+
+[Verne] -> 1.00000
+
+Sample:
+ipageseprecipitaavecdescablesetdeschainesetenuninstantlecanonfutamarrelecanonniersalualepassagermonsieurluiditilvousmavezsauvelavielevieillardavaitreprissonattitudeimpassibleetnereponditpaslhommeavaitvaincumaisonpouvaitdirequelecanonavaitvaincuaussilenaufrageimmediatetaitevitemaislacorvettenetaitpointsauveeledelabrementdunavireparaissaitirremediablelebordageavaitcinqbreches
+
+Actual text:
+s'écroule, et l'homme se ruant à corps perdu, ruisselant de sueur, passa le
+noeud coulant de la drosse au cou de bronze du monstre terrassé.
+C'était fini. L'homme avait vaincu. La fourmi avait eu raison du
+mastodonte; le pygmée avait fait le tonnerre prisonnier.
+Les soldats et les marins battirent des mains.
+[[Tout l'équipage se précipita avec des câbles et des chaînes, et en un
+instant le canon fut amarré.
+Le canonnier salua le passager.
+— Monsieur, lui dit-il, vous m'avez sauvé la vie.
+Le vieillard avait repris son attitude impassible, et ne répondit pas.
+L'homme avait vaincu, mais on pouvait dire que le canon avait vaincu aussi.
+Le naufrage immédiat était évité, mais la corvette n'était point sauvée. Le
+délabrement du navire paraissait irrémédiable. Le bordage avait cinq
+brèches, dont une fort grande à l'avant; vingt caronades sur trente
+gisaient dans leur cadre. La caronade ressaisie et remise à la chaîne
+était elle-même hors de service; la vis du bouton de culasse était forcée,
+
+[Zola] -> 0.99939
+
+Sample:
+mentdemandahalmaloilsrepondirentpersonneencecasunquartdheuresuffitainsirepartitlimanussilenneminentraiticiquedansunquartdheureilpourraitnouspoursuivreilnenousatteindraitpasmaisditlemarquisilsseronticidanscinqminutescevieuxcoffrenestpaspourlesgenerlongtempsquelquescoupsdecrosseenviendrontaboutunquartdheurequiestcequilesarreteraunquartdheuremoiditlimanustoigougelebruantmoimon
+
+Actual text:
+None------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+degranvilleestmishorslaloisateteestmiseaprixilserapayeaquilelivreramortouvivantlasommedesoixantemillelivrescettesommeneserapointpayeeenassignatsmaisenorunbataillondelarmeedescotesdecherbourgseraimmediatementenvoyealarencontreetalarechercheducidevantmarquisdelantenaclescommunessontrequisesdepretermainfortefaitenlamaisoncommunedegranvillelejuinsigneaudessousdecenomilyavaitune
+
+Actual text:
+None
+[Hugo] -> 1.00000
+
+Sample:
+tsolidesgauvainavaitreussilasurpriseetmanqueladerouteilavaitmispiedaterreattentifayantsonepeeaupoingsoussesbrascroisesdeboutdanslalueurdunetorchequieclairaitsabatterieilregardaittoutecetteombresahautetailledanscetteclartelefaisaitvisibleauxhommesdelabarricadeiletaitlepointdemiremaisilnysongeaitpaslesvoleesdeballesquenvoyaitlabarricadesabattaientautourdegauvainpensifmaiscont
+
+Actual text:
+par où passaient leurs carabines. Par ces trous leur fusillade était
+meurtrière. Tout cela se fit vite. En un quart d'heure la halle eut un
+front imprenable.
+Ceci devenait grave pour Gauvain. Cette halle brusquement transformée en
+citadelle, c'était l'inattendu. Les paysans étaient là, massés et solides.
+[[Gauvain avait réussi la surprise et manqué la déroute. Il avait mis pied à
+terre. Attentif, ayant son épée au poing sous ses bras croisés, debout dans
+la lueur d'une torche qui éclairait sa batterie, il regardait toute cette
+ombre.
+Sa haute taille dans cette clarté le faisait visible aux hommes de la]]
+barricade. Il était le point de mire, mais il n'y songeait pas.
+Les volées de balles qu'envoyait la barricade s'abattaient autour de
+Gauvain pensif.
+Mais contre toutes ces carabines il avait du canon. Le boulet finit
+toujours par avoir raison. Qui a l'artillerie a la victoire. Sa batterie,
+bien servie, lui assurait la supériorité.
+
+[Proust] -> 1.00000
+
+Sample:
+elestroisetagesduchateaudupontellerestauntempsquelconquecarlesmesuresdutempsseffacaientdanssonespritabsorbeeetmuettedevantceravinbeantetcettebatissetenebreusequetaitcequecelaquesepassaitillaetaitcelatourgueelleavaitlevertigedonnesaitquelleattentequiressemblaitalarriveeetaudepartellesedemandaitpourquoielleetaitlaelleregardaitelleecoutaitsubitementellenevitplusrienunvoiledefu
+
+Actual text:
+elle n'en avait pas été aperçue.
+Elle était parvenue au bord du plateau, si près du pont qu'il lui semblait
+presque qu'elle y pouvait toucher avec la main. La profondeur du ravin l'en
+séparait. Elle distinguait dans l'ombre les trois étages du château du
+pont.
+[[Elle resta un temps quelconque, car les mesures du temps s'effaçaient dans
+son esprit, absorbée et muette devant ce ravin béant et cette bâtisse
+ténébreuse. Qu'était-ce que cela? Que se passait-il là? Etait-ce la
+Tourgue? Elle avait le vertige d'on ne sait quelle attente qui ressemblait
+à l'arrivée et au départ. Elle se demandait pourquoi elle était là.
+Elle regardait, elle écoutait.]]
+Subitement elle ne vit plus rien.
+Un voile de fumée venait de monter entre elle et ce qu'elle regardait. Une
+âcre cuisson lui fit fermer les yeux. A peine avait-elle clos les paupières
+qu'elles s'empourprèrent et devinrent lumineuses. Elle les rouvrit.
+Ce n'était plus la nuit qu'elle avait devant elle, c'était le jour; mais
+
+[Verne] -> 1.00000
+
+Sample:
+ipageseprecipitaavecdescablesetdeschainesetenuninstantlecanonfutamarrelecanonniersalualepassagermonsieurluiditilvousmavezsauvelavielevieillardavaitreprissonattitudeimpassibleetnereponditpaslhommeavaitvaincumaisonpouvaitdirequelecanonavaitvaincuaussilenaufrageimmediatetaitevitemaislacorvettenetaitpointsauveeledelabrementdunavireparaissaitirremediablelebordageavaitcinqbreches
+
+Actual text:
+s'écroule, et l'homme se ruant à corps perdu, ruisselant de sueur, passa le
+noeud coulant de la drosse au cou de bronze du monstre terrassé.
+C'était fini. L'homme avait vaincu. La fourmi avait eu raison du
+mastodonte; le pygmée avait fait le tonnerre prisonnier.
+Les soldats et les marins battirent des mains.
+[[Tout l'équipage se précipita avec des câbles et des chaînes, et en un
+instant le canon fut amarré.
+Le canonnier salua le passager.
+— Monsieur, lui dit-il, vous m'avez sauvé la vie.
+Le vieillard avait repris son attitude impassible, et ne répondit pas.
+L'homme avait vaincu, mais on pouvait dire que le canon avait vaincu aussi.
+Le naufrage immédiat était évité, mais la corvette n'était point sauvée. Le
+délabrement du navire paraissait irrémédiable. Le bordage avait cinq
+brèches, dont une fort grande à l'avant; vingt caronades sur trente
+gisaient dans leur cadre. La caronade ressaisie et remise à la chaîne
+était elle-même hors de service; la vis du bouton de culasse était forcée,
+
+[Zola] -> 0.99939
+
+Sample:
+mentdemandahalmaloilsrepondirentpersonneencecasunquartdheuresuffitainsirepartitlimanussilenneminentraiticiquedansunquartdheureilpourraitnouspoursuivreilnenousatteindraitpasmaisditlemarquisilsseronticidanscinqminutescevieuxcoffrenestpaspourlesgenerlongtempsquelquescoupsdecrosseenviendrontaboutunquartdheurequiestcequilesarreteraunquartdheuremoiditlimanustoigougelebruantmoimon
+
+Actual text:
+None------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+degranvilleestmishorslaloisateteestmiseaprixilserapayeaquilelivreramortouvivantlasommedesoixantemillelivrescettesommeneserapointpayeeenassignatsmaisenorunbataillondelarmeedescotesdecherbourgseraimmediatementenvoyealarencontreetalarechercheducidevantmarquisdelantenaclescommunessontrequisesdepretermainfortefaitenlamaisoncommunedegranvillelejuinsigneaudessousdecenomilyavaitune
+
+Actual text:
+None
+[Hugo] -> 1.00000
+
+Sample:
+tsolidesgauvainavaitreussilasurpriseetmanqueladerouteilavaitmispiedaterreattentifayantsonepeeaupoingsoussesbrascroisesdeboutdanslalueurdunetorchequieclairaitsabatterieilregardaittoutecetteombresahautetailledanscetteclartelefaisaitvisibleauxhommesdelabarricadeiletaitlepointdemiremaisilnysongeaitpaslesvoleesdeballesquenvoyaitlabarricadesabattaientautourdegauvainpensifmaiscont
+
+Actual text:
+None
+[Proust] -> 1.00000
+
+Sample:
+elestroisetagesduchateaudupontellerestauntempsquelconquecarlesmesuresdutempsseffacaientdanssonespritabsorbeeetmuettedevantceravinbeantetcettebatissetenebreusequetaitcequecelaquesepassaitillaetaitcelatourgueelleavaitlevertigedonnesaitquelleattentequiressemblaitalarriveeetaudepartellesedemandaitpourquoielleetaitlaelleregardaitelleecoutaitsubitementellenevitplusrienunvoiledefu
+
+Actual text:
+None
+[Verne] -> 1.00000
+
+Sample:
+ipageseprecipitaavecdescablesetdeschainesetenuninstantlecanonfutamarrelecanonniersalualepassagermonsieurluiditilvousmavezsauvelavielevieillardavaitreprissonattitudeimpassibleetnereponditpaslhommeavaitvaincumaisonpouvaitdirequelecanonavaitvaincuaussilenaufrageimmediatetaitevitemaislacorvettenetaitpointsauveeledelabrementdunavireparaissaitirremediablelebordageavaitcinqbreches
+
+Actual text:
+None
+[Zola] -> 0.99939
+
+Sample:
+mentdemandahalmaloilsrepondirentpersonneencecasunquartdheuresuffitainsirepartitlimanussilenneminentraiticiquedansunquartdheureilpourraitnouspoursuivreilnenousatteindraitpasmaisditlemarquisilsseronticidanscinqminutescevieuxcoffrenestpaspourlesgenerlongtempsquelquescoupsdecrosseenviendrontaboutunquartdheurequiestcequilesarreteraunquartdheuremoiditlimanustoigougelebruantmoimon
+
+Actual text:
+None------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+roiseesavaientdepetitesvitresdunecouleursivertequesanssonexcellentevuelejeunehommenauraitpuapercevoirlesrideauxdetoileacarreauxbleusquicachaientlesmysteresdecetappartementauxyeuxdesprofanesparfoiscetobservateurennuyedesacontemplationsansresultatoudusilencedanslequellamaisonetaitensevelieainsiquetoutlequartierabaissaitsesregardsverslesregionsinferieuresunsourireinvolontaires
+
+Actual text:
+grands carreaux en verre de Bohême, de petits rideaux de mousseline
+rousse, ne l'intéressaient pas davantage. Son attention se portait
+particulièrement au troisième, sur d'humbles croisées dont le bois
+travaillé grossièrement aurait mérité d'être placé au Conservatoire des
+arts et métiers pour y indiquer les premiers efforts de la menuiserie
+[[française. Ces croisées avaient de petites vitres d'une couleur si
+verte, que, sans son excellente vue, le jeune homme n'aurait pu
+apercevoir les rideaux de toile à carreaux bleus qui cachaient les
+mystères de cet appartement aux yeux des profanes. Parfois, cet
+observateur, ennuyé de sa contemplation sans résultat, ou du silence
+dans lequel la maison était ensevelie, ainsi que tout le quartier,]]
+abaissait ses regards vers les régions inférieures. Un sourire
+involontaire se dessinait alors sur ses lèvres, quand il revoyait la
+boutique où se rencontraient en effet des choses assez risibles. Une
+formidable pièce de bois, horizontalement appuyée sur quatre piliers
+qui paraissaient courbés par le poids de cette maison décrépite, avait
+
+[Hugo] -> 0.99962
+
+Sample:
+teslezardesparallelesevidemmentaupassagedetouteslesvoitureschacunedecessolivessagitaitdanssamortaisecevenerableedificeetaitsurmonteduntoittriangulairedontaucunmodeleneseverrabientotplusapariscettecouverturetordueparlesintemperiesduclimatparisiensavancaitdetroispiedssurlarueautantpourgarantirdeseauxpluvialesleseuildelaportequepourabriterlemurdungrenieretsalucarnesansappuiced
+
+Actual text:
+aux historiens la facilité de reconstruire par analogie l'ancien Paris.
+Les murs menaçants de cette bicoque semblaient avoir été bariolés
+d'hiéroglyphes. Quel autre nom le flâneur pouvait-il donner aux X et
+aux V que traçaient sur la façade les pièces de bois transversales ou
+diagonales dessinées dans le badigeon par de petites lézardes
+[[parallèles ? Evidemment, au passage de toutes les voitures, chacune de
+ces solives s'agitait dans sa mortaise. Ce vénérable édifice était
+surmonté d'un toit triangulaire dont aucun modèle ne se verra bientôt
+plus à Paris. Cette couverture, tordue par les intempéries du climat
+parisien, s'avançait de trois pieds sur la rue, autant pour garantir
+des eaux pluviales le seuil de la porte, que pour abriter le mur d'un]]
+grenier et sa lucarne sans appui. Ce dernier étage était construit en
+planches clouées l'une sur l'autre comme des ardoises, afin sans doute
+de ne pas charger cette frêle maison.
+Par une matinée pluvieuse, au mois de mars, un jeune homme,
+soigneusement enveloppé dans son manteau, se tenait sous l'auvent de la
+
+[Proust] -> 1.00000
+
+Sample:
+jenaifaitquemondevoircetaitdejatantquedevousinteresseraunpauvreorphilbrossaitleparementdesamanchegaucheaveclamanchedroiteetnosaitregarderlevieillardquisouriaitenpensantquecemodestejeunehommeavaitsansdoutebesoincommeluiautrefoisdetreencouragepourrendrelexplicationcompletecependantrepritleperedevirginievousnemeritezpasbeaucoupcettefaveurjosephvousnemettezpasenmoiautantdeconfi
+
+Actual text:
+raison sociale ? On pourrait mettre et compagnie pour arrondir la
+signature.
+Les larmes vinrent aux yeux de Joseph Lebas, qui s'efforça de les
+cacher.
+—  Ah, monsieur Guillaume ! comment ai-je pu mériter tant de
+[[bontés ? Je n'ai fait que mon devoir. C'était déjà tant que de vous
+intéresser à un pauvre orph...
+Il brossait le parement de sa manche gauche avec la manche droite, et
+n'osait regarder le vieillard qui souriait en pensant que ce modeste
+jeune homme avait sans doute besoin, comme lui autrefois, d'être
+encouragé pour rendre l'explication complète.
+—  Cependant, reprit le père de Virginie, vous ne méritez pas beaucoup
+cette faveur, Joseph ! Vous ne mettez pas en moi autant de confiance
+que j'en mets en vous. 
+—  Vous avez le secret de la caisse. Depuis deux ans je vous ai dit
+presque toutes mes affaires. Je vous ai fait voyager en fabrique.
+
+[Verne] -> 0.92364
+
+Sample:
+esustensileslesfersamarquerledraplacaisseobjetsduneorigineimmemorialeetcrutserevoirdevantlombreevoqueedusieurchevrelilavancalememetabouretsurlequelilsetaitjadisassisenpresencedesondefuntpatroncetabouretgarnidecuirnoiretdontlecrinsechappaitdepuislongtempsparlescoinsmaissansseperdreilleplacadunemaintremblanteaumemeendroitousonpredecesseurlavaitmispuisdansuneagitationdifficile
+
+Actual text:
+bras crasseux d'un fauteuil de canne doublé de maroquin dont la couleur
+primitive était effacée, il semblait hésiter à s'y asseoir. Il regarda
+d'un air attendri le bureau à double pupitre, où la place de sa femme
+se trouvait ménagée, dans le côté opposé à la sienne, par une petite
+arcade pratiquée dans le mur. Il contempla les cartons numérotés, les
+[[ficelles, les ustensiles, les fers à marquer le drap, la caisse, objets
+d'une origine immémoriale, et crut se revoir devant l'ombre évoquée du
+sieur Chevrel. Il avança le même tabouret sur lequel il s'était jadis
+assis en présence de son défunt patron. Ce tabouret garni de cuir noir,
+et dont le crin s'échappait depuis long-temps par les coins mais sans
+se perdre, il le plaça d'une main tremblante au même endroit où son]]
+prédécesseur l'avait mis ; puis, dans une agitation difficile à
+décrire, il tira la sonnette qui correspondait au chevet du lit de
+Joseph Lebas. Quand ce coup décisif eut été frappé, le vieillard, pour
+qui ces souvenirs furent sans doute trop lourds, prit trois ou quatre
+lettres de change qui lui avaient été présentées, et les regarda sans
+
+[Zola] -> 0.99919
+
+Sample:
+maisonouilallaitleplusvolontiersetaitcelledeladuchessedecariglianoquiavaitfiniparattirerchezellelecelebreartistequandaugustinefutretabliequandsonfilsnereclamapluscessoinsassidusquiinterdisentaunemerelesplaisirsdumondetheodoreenetaitarriveavouloireprouvercettejouissancedamourproprequenousdonnelasocietequandnousyapparaissonsavecunebellefemmeobjetdenvieetdadmirationparcourirle
+
+Actual text:
+Sommervieux sentit un matin la nécessité de reprendre ses travaux et
+ses habitudes. Sa femme était enceinte. Il revit ses amis. Pendant les
+longues souffrances de l'année où, pour la première fois, une jeune
+femme nourrit un enfant, il travailla sans doute avec ardeur ; mais
+parfois il retourna chercher quelques distractions dans le grand monde.
+[[La maison où il allait le plus volontiers était celle de la duchesse de
+Carigliano qui avait fini par attirer chez elle le célèbre artiste.
+Quand Augustine fut rétablie, quand son fils ne réclama plus ces soins
+assidus qui interdisent à une mère les plaisirs du monde, Théodore en
+était arrivé à vouloir éprouver cette jouissance d'amour-propre que
+nous donne la société quand nous y apparaissons avec une belle femme,]]
+objet d'envie et d'admiration. Parcourir les salons en s'y montrant
+avec l'éclat emprunté de la gloire de son mari, se voir jalousée par
+toutes les femmes, fut pour Augustine une nouvelle moisson de
+plaisirs ; mais ce fut le dernier reflet que devait jeter son bonheur
+conjugal. Elle commença par offenser la vanité de son mari, quand,
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+ionetparlesquelslamoureuxcommeunnageurentrainesanssenapercevoirbienviteperddevuelaterresansdoutelamourdunhommenormalpeutaussiquandlamoureuxparlinterventionsuccessivedesesdesirsdesesregretsdesesdeceptionsdesesprojetsconstruittoutunromansurunefemmequilneconnaitpaspermettredemesurerunasseznotableecartementdedeuxbranchesdecompastoutdememeuntelecartementetaitsingulierementelargi
+
+Actual text:
+qui, libre quelques années plus tôt, n'avait demandé qu'à se fixer sur
+Aimé et qui avait dicté la lettre dont j'étais gêné pour M. de Charlus
+et que m'avait montrée le maître d'hôtel. Elle était, à cause de l'amour
+antisocial qu'était celui de M. de Charlus, un exemple plus frappant de
+la force insensible et puissante qu'ont ces courants de la passion et
+[[par lesquels l'amoureux, comme un nageur entraîné sans s'en apercevoir,
+bien vite perd de vue la terre. Sans doute l'amour d'un homme normal
+peut aussi, quand l'amoureux, par l'intervention successive de ses
+désirs, de ses regrets, de ses déceptions, de ses projets, construit
+tout un roman sur une femme qu'il ne connaît pas, permettre de mesurer
+un assez notable écartement de deux branches de compas. Tout de même]]
+un tel écartement était singulièrement élargi par le caractère d'une
+passion qui n'est pas généralement partagée et par la différence des
+conditions de M. de Charlus et d'Aimé.
+Tous les jours, je sortais avec Albertine. Elle s'était décidée à
+se remettre à la peinture et avait d'abord choisi, pour travailler,
+
+[Hugo] -> 0.99995
+
+Sample:
+redanslessiegespourarracherlespieuxdoulesurnomdarrachepelsouslequelilfutanoblietlespieuxquevousvoyezatraverslessieclespersisterdansleursarmesilsagitdespieuxquepourrendreplusinabordableslesfortificationsonplantaitonfichaitpassezmoilexpressionenterredevantellesetquonreliaitentreeuxcesonteuxquevousappelieztresbiendespiquetsetquinavaientriendesbatonsflottantsdubonlafontainecari
+
+Actual text:
+eut, seulement alors, l'idée dont sa femme lui avait fait honneur et
+il craignit que Mme Verdurin ne se fût appliqué des paroles qui ne la
+visaient nullement. L'histoire veut qu'au onzième siècle, le premier
+Arrachepel, Macé, dit Pelvilain, ait montré une habileté particulière
+dans les sièges pour arracher les pieux. D'où le surnom d'Arrachepel
+[[sous lequel il fut anobli, et les pieux que vous voyez à travers les
+siècles persister dans leurs armes. Il s'agit des pieux que, pour
+rendre plus inabordables les fortifications, on plantait, on fichait,
+passez-moi l'expression, en terre devant elles, et qu'on reliait
+entre eux. Ce sont eux que vous appeliez très bien des piquets et
+qui n'avaient rien des bâtons flottants du bon La Fontaine. Car ils]]
+passaient pour rendre une place inexpugnable. Évidemment, cela fait
+sourire avec l'artillerie moderne. Mais il faut se rappeler qu'il s'agit
+du onzième siècle.— Cela manque d'actualité, dit Mme Verdurin, mais le
+petit campanile a du caractère.— Vous avez, dit Cottard, une veine de...
+turlututu, mot qu'il répétait volontiers pour esquiver celui de Molière.
+
+[Proust] -> 0.99999
+
+Sample:
+lagenaitpassoussajupedetoilesesjambesseserraientcontremesjambeselleapprochaitdemesjouessesjouesquietaientdevenuesblemeschaudesetrougesauxpommettesavecquelquechosedardentetdefanecommeenontlesfillesdefaubourgsacesmomentslapresqueaussivitequedepersonnaliteellechangeaitdevoixperdaitlasiennepourenprendreuneautreenroueehardiepresquecrapuleuselesoirtombaitquelplaisirdelasentircont
+
+Actual text:
+nous deux, cette vie d'amants qu'ils pouvaient supposer que nous avions,
+et dont cet arrêt pour boire n'eût été qu'un moment insignifiant;
+supposition qui eût paru d'autant moins invraisemblable si on nous avait
+vus après qu'Albertine avait bu sa bouteille de cidre; elle semblait
+alors, en effet, ne plus pouvoir supporter entre elle et moi un
+[[intervalle qui d'habitude ne la gênait pas; sous sa jupe de toile ses
+jambes se serraient contre mes jambes, elle approchait de mes joues ses
+joues qui étaient devenues blêmes, chaudes et rouges aux pommettes, avec
+quelque chose d'ardent et de fané comme en ont les filles de faubourgs.
+A ces moments-là, presque aussi vite que de personnalité elle changeait
+de voix, perdait la sienne pour en prendre une autre, enrouée, hardie,]]
+presque crapuleuse. Le soir tombait. Quel plaisir de la sentir contre
+moi, avec son écharpe et sa toque, me rappelant que c'est ainsi
+toujours, côte à côte, qu'on rencontre ceux qui s'aiment. J'avais
+peut-être de l'amour pour Albertine, mais n'osant pas le lui laisser
+apercevoir, bien que, s'il existait en moi, ce ne pût être que comme
+
+[Verne] -> 0.99988
+
+Sample:
+rouxsoneminentcolleguepardonsonconfrerecequembergsonpensaitdesalterationsparticulieresdelamemoireduesauxhypnotiquesbienentenduauraitditmbergsonamboutrouxaencroirelephilosophenorvegienleshypnotiquesprisdetempsentempsadosesmodereesnontpasdinfluencesurcettesolidememoiredenotreviedetouslesjourssibieninstalleeennousmaisilestdautresmemoiresplushautesplusinstablesaussiundemescolle
+
+Actual text:
+avec tant de géants, et avoir noué pour toujours tant d'amitiés, il est
+bien plus difficile de s'éveiller qu'après avoir pris plusieurs grammes
+de véronal. Aussi, raisonnant de l'un à l'autre, je fus surpris
+d'apprendre par le philosophe norvégien, qui le tenait de M. Boutroux,
+«son éminent collègue— pardon, son confrère»,— ce que M. Bergson pensait
+[[des altérations particulières de la mémoire dues aux hypnotiques. «Bien
+entendu, aurait dit M. Bergson à M. Boutroux, à en croire le philosophe
+norvégien, les hypnotiques pris de temps en temps, à doses modérées,
+n'ont pas d'influence sur cette solide mémoire de notre vie de tous les
+jours, si bien installée en nous. Mais il est d'autres mémoires,
+plus hautes, plus instables aussi. Un de mes collègues fait un cours]]
+d'histoire ancienne. Il m'a dit que si, la veille, il avait pris un
+cachet pour dormir, il avait de la peine, pendant son cours, à retrouver
+les citations grecques dont il avait besoin. Le docteur qui lui avait
+recommandé ces cachets lui assura qu'ils étaient sans influence sur
+la mémoire. «C'est peut-être que vous n'avez pas à faire de citations
+
+[Zola] -> 1.00000
+
+Sample:
+alombredesjeunesfillesenfleurslecotedeguermantessodomeetgomorrhelaprisonniereletempsretrouvelelendemainlefameuxmercredidanscememepetitchemindeferquejevenaisdeprendreabalbecpourallerdineralaraspelierejetenaisbeaucoupanepasmanquercottardagraincourtsaintvastouunnouveautelephonagedemmeverdurinmavaitditquejeleretrouveraisildevaitmonterdansmontrainetmindiqueraitouilfallaitdescend
+
+Actual text:
+Je me suis trompé, je t'ai trompée de bonne foi hier, j'ai réfléchi
+toute la nuit. Il faut absolument, et décidons-le tout de suite, parce
+que je me rends bien compte maintenant, parce que je ne changerai plus,
+et que je ne pourrais pas vivre sans cela, il faut absolument que
+j'épouse Albertine.»
+[[A L'OMBRE DES JEUNES FILLES EN FLEURS .
+LE CÔTÉ DE GUERMANTES .
+SODOME ET GOMORRHE .
+LA PRISONNIÈRE .
+LE TEMPS RETROUVÉ .
+.
+
+Le lendemain, le fameux mercredi, dans ce même petit chemin de fer que
+je venais de prendre à Balbec, pour aller dîner à la Raspelière, je
+tenais beaucoup à ne pas manquer Cottard à Graincourt-Saint-Vast où un
+nouveau téléphonage de Mme Verdurin m'avait dit que je le retrouverais.
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 0.99998
+
+Sample:
+prisebeaucoupplusamusantequedeliredanslalivraisonnouvelledunerevuelemotdelenigmeproposeedanslaprecedentelivraisonlesgrandsrestaurantslescasinoslestortillardssontlemuseedesfamillesdecesenigmessocialesprincessenousvousauronsmanqueeamainevillevouspermettezquenousprenionsplacedansvotrecompartimentmaiscommentdoncfitlaprincessequienentendantcottardluiparlerlevaseulementalorsdesur
+
+Actual text:
+claire aussitôt quand je sus son nom, comme quand, après avoir peiné sur
+une devinette, on apprend enfin le mot qui rend clair tout ce qui était
+resté obscur et qui, pour les personnes, est le nom. Apprendre le
+surlendemain quelle était la personne à côté de qui on a voyagé dans le
+train sans parvenir à trouver son rang social est une surprise beaucoup
+[[plus amusante que de lire dans la livraison nouvelle d'une revue le
+mot de l'énigme proposée dans la précédente livraison. Les grands
+restaurants, les casinos, les «tortillards» sont le musée des familles
+de ces énigmes sociales. «Princesse, nous vous aurons manquée à
+Maineville! Vous permettez que nous prenions place dans votre
+compartiment?— Mais comment donc», fit la princesse qui, en entendant]]
+Cottard lui parler, leva seulement alors de sur sa revue des yeux qui,
+comme ceux de M. de Charlus, quoique plus doux, voyaient très bien
+les personnes de la présence de qui elle faisait semblant de ne pas
+s'apercevoir. Cottard, réfléchissant à ce que le fait d'être invité avec
+les Cambremer était pour moi une recommandation suffisante, prit, au
+
+[Hugo] -> 0.99969
+
+Sample:
+uifaisaientsigneilscouraientalorsapresluiensoufflantenquoiilsluiressemblaientmaisdifferaientdeluiencequilslerattrapaientatoutevitessealorsqueluinusaitquedunesagelenteurainsihermenonvilleharambouvilleincarvillenemevoquaientmemepluslesfarouchesgrandeursdelaconquetenormandenoncontentsdesetreentierementdepouillesdelatristesseinexplicableoujelesavaisvusbaignerjadisdanslhumidited
+
+Actual text:
+cadre de vie mondaine comme un autre, en somme, que ces arrêts du petit
+chemin de fer. Lui-même semblait avoir conscience de ce rôle qui lui
+était dévolu, avait contracté quelque amabilité humaine; patient,
+d'un caractère docile, il attendait aussi longtemps qu'on voulait les
+retardataires, et, même une fois parti, s'arrêtait pour recueillir ceux
+[[qui lui faisaient signe; ils couraient alors après lui en soufflant,
+en quoi ils lui ressemblaient, mais différaient de lui en ce qu'ils
+le rattrapaient à toute vitesse, alors que lui n'usait que d'une sage
+lenteur. Ainsi Hermenonville, Harambouville, Incarville, ne m'évoquaient
+même plus les farouches grandeurs de la conquête normande, non contents
+de s'être entièrement dépouillés de la tristesse inexplicable où je les]]
+avais vus baigner jadis dans l'humidité du soir. Doncières! Pour moi,
+même après l'avoir connu et m'être éveillé de mon rêve, combien il était
+resté longtemps, dans ce nom, des rues agréablement glaciales, des
+vitrines éclairées, des succulentes volailles! Doncières! Maintenant
+ce n'était plus que la station où montait Morel: Égleville
+
+[Proust] -> 1.00000
+
+Sample:
+dinnombrablescottardaientvecueblouispardesfemmestitreesdontilssimaginaientquelesalonetaitlecentredeselegancesaristocratiquesetquinetaientmemepascequetaientmmedevilleparisisetsesamiesnoncellesdontlamitieaetelorgueildetantdegenssiceuxcipubliaientleursmemoiresetydonnaientlesnomsdecesfemmesetdecellesquellesrecevaientpersonnepasplusmmedecambremerquemmedeguermantesnepourraitlesid
+
+Actual text:
+passé sa vie au milieu des grands de la terre qui n'étaient pour lui
+que d'ennuyeux parents ou de fastidieuses connaissances, parce qu'une
+habitude contractée dès le berceau les avait dépouillés à ses yeux de
+tout prestige. Mais, en revanche, il a suffi que celui-ci vînt, par
+quelque hasard, s'ajouter aux personnes les plus obscures, pour que
+[[d'innombrables Cottard aient vécu éblouis par des femmes titrées
+dont ils s'imaginaient que le salon était le centre des élégances
+aristocratiques, et qui n'étaient même pas ce qu'étaient Mme de
+Villeparisis et ses amies ; non, celles dont
+l'amitié a été l'orgueil de tant de gens, si ceux-ci publiaient leurs
+mémoires et y donnaient les noms de ces femmes et de celles qu'elles]]
+recevaient, personne, pas plus Mme de Cambremer que Mme de Guermantes,
+ne pourrait les identifier. Mais qu'importe! Un Cottard a ainsi sa
+marquise, laquelle est pour lui la «baronne», comme, dans Marivaux, la
+baronne dont on ne dit jamais le nom et dont on n'a même pas l'idée
+qu'elle en a jamais eu un. Cottard croit d'autant plus y trouver résumée
+
+[Verne] -> 0.85190
+
+Sample:
+olementdemodelescarleuraircontemplatifetleurpresencesolitairequandleshumainssontrentrescontribuaientaleurmanierealapuissanteimpressiondereposquedegagelesoiretquelquessemainesplustardlatranspositionnefutpasmoinsagreablequandlautomnesavancantlesjoursdevinrenttoutafaitcourtsetquilfallutfairecevoyagedanslanuitsijavaisetefaireuntourdanslapresmidiilfallaitrentrershabillerauplusta
+
+Actual text:
+tandis que d'autres, s'intéressant plus à l'humanité, tournaient leur
+attention vers nos voitures. Seul un peintre qui avait dressé son
+chevalet sur une mince éminence travaillait à essayer de rendre ce grand
+calme, cette lumière apaisée. Peut-être les vaches allaient-elles
+lui servir inconsciemment et bénévolement de modèles, car leur air
+[[contemplatif et leur présence solitaire, quand les humains sont rentrés,
+contribuaient, à leur manière, à la puissante impression de repos que
+dégage le soir. Et quelques semaines plus tard, la transposition ne fut
+pas moins agréable quand, l'automne s'avançant, les jours devinrent tout
+à fait courts et qu'il fallut faire ce voyage dans la nuit. Si j'avais
+été faire un tour dans l'après-midi, il fallait rentrer s'habiller au]]
+plus tard à cinq heures, où maintenant le soleil rond et rouge était
+déjà descendu au milieu de la glace oblique, jadis détestée, et, comme
+quelque feu grégeois, incendiait la mer dans les vitres de toutes mes
+bibliothèques. Quelque geste incantateur ayant suscité, pendant que je
+passais mon smoking, le moi alerte et frivole qui était le mien quand
+
+[Zola] -> 0.99967
+
+Sample:
+equemployaitcancancottardquienconnaissaitlefortetlefaibleparcequillesavaitlaborieusementapprisesdemontraitaumarquislequelconfessaitsabetisequellesnevoulaientriendirepourquoibetecommechoucroyezvousqueleschouxsoientplusbetesquautrechosevousditesrepetertrentesixfoislamemechosepourquoiparticulierementtrentesixpourquoidormircommeunpieupourquoitonnerredebrestpourquoifairelesquatr
+
+Actual text:
+que je chasse dans la forêt de Chantepie et jamais je n'avais réfléchi à
+ce que son nom voulait dire.» Mme de Cambremer jeta un regard sévère à
+son mari; elle n'aurait pas voulu qu'il s'humiliât ainsi devant Brichot.
+Elle fut plus mécontente encore quand, à chaque expression «toute faite»
+qu'employait Cancan, Cottard, qui en connaissait le fort et le faible
+[[parce qu'il les avait laborieusement apprises, démontrait au marquis,
+lequel confessait sa bêtise, qu'elles ne voulaient rien dire: «Pourquoi:
+bête comme chou? Croyez-vous que les choux soient plus bêtes qu'autre
+chose? Vous dites: répéter trente-six fois la même chose. Pourquoi
+particulièrement trente-six? Pourquoi: dormir comme un pieu? Pourquoi:
+Tonnerre de Brest? Pourquoi: faire les quatre cents coups?» Mais alors]]
+la défense de M. de Cambremer était prise par Brichot, qui expliquait
+l'origine de chaque locution. Mais Mme de Cambremer était surtout
+occupée à examiner les changements que les Verdurin avaient apportés
+à la Raspelière, afin de pouvoir en critiquer certains, en importer à
+Féterne d'autres, ou peut-être les mêmes. «Je me demande ce que c'est
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+discoursspirituelsquisetiennentdanslemondesurlinconstancedeshommeselleneseplaignitpasmaissonattitudeequivalaitadesreprochestroisansapressonmariagecettefemmejeuneetjoliequipassaitsibrillantedanssonbrillantequipagequivivaitdansunespheredegloireetderichesseenvieedetantdegensinsouciantsetincapablesdapprecierjustementlessituationsdelaviefutenproieadeviolentschagrinssescouleurspa
+
+Actual text:
+douleur morne et silencieuse. Ces sentiments secrets mirent entre les
+deux époux un voile qui devait s'épaissir de jour en jour. Sans que son
+mari manquât d'égards envers elle, Augustine ne pouvait s'empêcher de
+trembler en le voyant réserver pour le monde les trésors d'esprit et de
+grâce qu'il venait jadis mettre à ses pieds. Bientôt, elle interpréta
+[[fatalement les discours spirituels qui se tiennent dans le monde sur
+l'inconstance des hommes. Elle ne se plaignit pas, mais son attitude
+équivalait à des reproches. Trois ans après son mariage, cette femme
+jeune et jolie qui passait si brillante dans son brillant équipage, qui
+vivait dans une sphère de gloire et de richesse enviée de tant de gens
+insouciants et incapables d'apprécier justement les situations de la]]
+vie, fut en proie à de violents chagrins. Ses couleurs pâlirent. Elle
+réfléchit, elle compara ; puis, le malheur lui déroula les premiers
+textes de l'expérience. Elle résolut de rester courageusement dans le
+cercle de ses devoirs, en espérant que cette conduite généreuse lui
+ferait recouvrer tôt ou tard l'amour de son mari ; mais il n'en fut pas
+
+[Hugo] -> 0.99563
+
+Sample:
+availexcessifdesignesouslenomdinventaireonremuaittouslesballotsetlonverifiaitlaunagedespiecespoursassurerdelavaleurexacteducoupononexaminaitsoigneusementlacarteappendueaupaquetpourreconnaitreenqueltempslesdrapsavaienteteachetesonfixaitleprixactueltoujoursdeboutsonaunealamainlaplumederriereloreillemonsieurguillaumeressemblaitauncapitainecommandantlamanoeuvresavoixaiguepassan
+
+Actual text:
+vaisseau si tranquille qui naviguait sur la mer orageuse de la place de
+Paris, sous le pavillon du Chat-qui-pelote, était la proie d'une de ces
+tempêtes qu'on pourrait nommer équinoxiales à cause de leur retour
+périodique. Depuis quinze jours, les quatre hommes de l'équipage,
+madame Guillaume et mademoiselle Virginie s'adonnaient à ce travail
+[[excessif désigné sous le nom d'inventaire. On remuait tous les ballots
+et l'on vérifiait l'aunage des pièces pour s'assurer de la valeur
+exacte du coupon. On examinait soigneusement la carte appendue au
+paquet pour reconnaître en quel temps les draps avaient été achetés. On
+fixait le prix actuel. Toujours debout, son aune à la main, la plume
+derrière l'oreille, monsieur Guillaume ressemblait à un capitaine]]
+commandant la manoeuvre. Sa voix aiguë, passant par un judas pour
+interroger la profondeur des écoutilles du magasin d'en bas, faisait
+entendre ces barbares locutions du commerce, qui ne s'exprime que par
+énigmes : —  Combien d'H-N-Z ? —  Enlevé. —  Que reste-t-il de Q-X ? — 
+Deux aunes. —  Quel prix ? —  Cinq-cinq-trois. —  Portez à trois A tout
+
+[Proust] -> 0.99967
+
+Sample:
+naitseuleduprixdesboursesenfiletquelleavaitsoindemplirdecotonpourfairevaloirleursdessinsajourdesbretellesfortementconditionneesoudespairesdebasdesoiebienlourdesquelquefoismaisrarementcepremierministreetaitadmisapartagerlesplaisirsdelafamillesoitquandelleallaitalacampagnesoitquandapresdesmoisdattenteellesedecidaitauserdesondroitademanderenlouantunelogeunepiecealaquelleparisn
+
+Actual text:
+deux gros paroissiens reliés en maroquin noir. Le second commis n'avait
+pas d'appointements. Quant à celui que douze ans de persévérance et de
+discrétion initiaient aux secrets de la maison, il recevait huit cents
+francs en récompense de ses labeurs. A certaines fêtes de famille, il
+était gratifié de quelques cadeaux auxquels la main sèche et ridée de
+[[madame Guillaume donnait seule du prix : des bourses en filet, qu'elle
+avait soin d'emplir de coton pour faire valoir leurs dessins à jour ;
+des bretelles fortement conditionnées, ou des paires de bas de soie
+bien lourdes. Quelquefois, mais rarement, ce premier ministre était
+admis à partager les plaisirs de la famille soit quand elle allait à la
+campagne, soit quand après des mois d'attente elle se décidait à user]]
+de son droit à demander, en louant une loge, une pièce à laquelle Paris
+ne pensait plus. Quant aux deux autres commis, la barrière de respect
+qui séparait jadis un maître drapier de ses apprentis était placée si
+fortement entre eux et le vieux négociant, qu'il leur eût été plus
+facile de voler une pièce de drap que de déranger cette auguste
+
+[Verne] -> 0.99913
+
+Sample:
+nssonenthousiasmeilallaitselancerhorsducabinetquandilsesentitarreteparunbrasdeferetsonpatronstupefaitleramenavigoureusementdevantluiquestcequefaitdoncaugustinedanscetteaffairelademandaguillaumedontlavoixglacasurlechamplemalheureuxjosephlebasnestcepasellequejaimeditlecommisenbalbutiantdeconcertedesondefautdeperspicaciteguillaumeserassitetmitsatetepointuedanssesdeuxmainspourr
+
+Actual text:
+—  Eh bien ! garçon, dit le marchand attendri, tu es plus heureux que
+tu ne crois, sarpejeu, car elle t'aime. Je le sais, moi !
+Et il cligna ses deux petits yeux verts en regardant son commis.
+—  Mademoiselle Augustine, mademoiselle Augustine ! s'écria Joseph
+Lebas dans son enthousiasme.
+[[Il allait s'élancer hors du cabinet, quand il se sentit arrêté par un
+bras de fer, et son patron stupéfait le ramena vigoureusement devant
+lui.
+—  Qu'est-ce que fait donc Augustine dans cette affaire-là ?
+demanda Guillaume dont la voix glaça sur-le-champ le malheureux Joseph
+Lebas.]]
+—  N'est-ce pas elle... que... j'aime ? dit le commis en balbutiant.
+Déconcerté de son défaut de perspicacité, Guillaume se rassit et mit sa
+tête pointue dans ses deux mains pour réfléchir à la bizarre position
+dans laquelle il se trouvait. Joseph Lebas honteux et au désespoir
+resta debout.
+
+[Zola] -> 0.95880
+
+Sample:
+setsenarraientencorelesvieilleshistoiresduquartiersaintdenisadeuxheureslepereguillaumeallaitdonneruncoupdoeilaletablissementduchatquipeloteenrevenantilsarretaitatouteslesboutiquesautrefoissesrivalesetdontlesjeunesproprietairesesperaiententrainerlevieuxnegociantdansquelqueescompteaventureuxqueselonsacoutumeilnerefusaitjamaispositivementdeuxbonschevauxnormandsmouraientdegrasf
+
+Actual text:
+se racontaient l'un à l'autre tous les désastres du Maximum, leurs
+anciennes acquisitions de draps, la manière dont ils avaient évité les
+banqueroutes, et surtout cette célèbre faillite Lecocq, la bataille de
+Marengo du père Guillaume. Puis, quand ils avaient épuisé les vieux
+procès, ils récapitulaient les additions de leurs inventaires les plus
+[[productifs, et se narraient encore les vieilles histoires du quartier
+Saint-Denis. A deux heures, le père Guillaume allait donner un coup
+d'oeil à l'établissement du Chat-qui-pelote. En revenant il s'arrêtait
+à toutes les boutiques, autrefois ses rivales, et dont les jeunes
+propriétaires espéraient entraîner le vieux négociant dans quelque
+escompte aventureux, que, selon sa coutume, il ne refusait jamais]]
+positivement. Deux bons chevaux normands mouraient de gras-fondu dans
+l'écurie de l'hôtel ; madame Guillaume ne s'en servait que pour se
+faire traîner tous les dimanches à la grand'messe de sa paroisse. Trois
+fois par semaine ce respectable couple tenait table ouverte. Grâce à
+l'influence de son gendre Sommervieux, le père Guillaume avait été
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+resentationstheatralesinterdictionauxtribunauxderendrelajusticeinterdictiondeprocederalacelebrationdesmariagesleoudesoleemaiscourageusepournepasajouteralapeinedesonfiancefaisaitcontrefortuneboncurelleavaitprislamaindesoncherkinfoattendonsluiditelledunevoixquisefforcaitdecachersaviveemotionetlepalanquinrepartitaveclajeunefemmepoursamaisondelavenuedechacouaetlesrejouissancesf
+
+Actual text:
+Kin-Fo avait compris. C'était un coup qui le frappait directement. Il ne
+put retenir un geste de colère!
+Le deuil impérial venait d'être décrété pour la mort de la veuve du
+dernier empereur. Pendant un délai que fixerait la loi, interdiction à
+quiconque de se raser la tête, interdiction de donner des fêtes
+[[publiques et des représentations théâtrales, interdiction aux tribunaux
+de rendre la justice, interdiction de procéder à la célébration des
+mariages!
+Lé-ou, désolée, mais courageuse, pour ne pas ajouter à la peine de son
+fiancé, faisait contre fortune bon cœur. Elle avait pris la main de son
+cher Kin-Fo:]]
+«Attendons,» lui dit-elle d'une voix qui s'efforçait de cacher sa vive
+émotion.
+Et le palanquin repartit avec la jeune femme pour sa maison de l'avenue
+de Cha-Coua, et les réjouissances furent suspendues, les tables
+desservies, les orchestres renvoyés, et les amis du désolé Kin-Fo se
+
+[Hugo] -> 0.99995
+
+Sample:
+roisouquatredesescompagnonsimmobilespresdeluisemblaientservirdassesseurscethommefitunsignelafoulesouvritaussitotetlaissapassageauxdeuxprisonnierslaoshenditsimplementlechefdelescorteenindiquantlepersonnagequisetenaitdeboutkinfofitunpasversluietentrantenmatierecommeunhommequiestdecideaenfinirlaoshenditiltuasentrelesmainsunelettrequitaeteenvoyeepartonanciencompagnonwangcettele
+
+Actual text:
+dans ses plus sombres profondeurs.
+C'était toute la bande des Taï-ping, réunie là pour quelque cérémonie
+suspecte.
+Au fond de la crypte, sur une large estrade en pierre, un homme de haute
+taille se tenait debout. On eût dit le président d'un tribunal secret.
+[[Trois ou quatre de ses compagnons, immobiles près de lui, semblaient
+servir d'assesseurs.
+Cet homme fit un signe. La foule s'ouvrit aussitôt et laissa passage aux
+deux prisonniers.
+«Lao-Shen,» dit simplement le chef de l'escorte, en indiquant le
+personnage qui se tenait debout.
+Kin-Fo fit un pas vers lui, et, entrant en matière, comme un homme qui
+est décidé à en finir:
+«Lao-Shen, dit-il, tu as entre les mains une lettre qui t'a été envoyée
+par ton ancien compagnon Wang. Cette lettre est maintenant sans objet,
+et je viens te demander de me la rendre.»
+
+[Proust] -> 0.99980
+
+Sample:
+uxredevenirunsagereponditlephilosophejytacheraiditkinfoetcestcommencerquedesongeramettredelordredansmesaffairesilacourudeparlemondeunpetitpapierquiaetepourmoilacausedetropdetribulationspourquilmesoitpermisdelenegligerquestdecidementdevenuecettelettremauditequejetavaisremisemoncherwangestellevraimentsortiedetesmainsjeneseraispasfachedelarevoircarenfinsielleallaitseperdreenco
+
+Actual text:
+l'infortuné valet avait dû refaire toute cette traversée de Fou-Ning à
+Shang-Haï, et dans quelles conditions! On en pouvait juger à sa mine!
+Kin-Fo, après s'être arraché aux étreintes de Wang, serrait la main de
+ses amis.
+«Décidément, j'aime mieux cela! dit-il. J'ai été un fou jusqu'ici!...
+[[— Et tu peux redevenir un sage! répondit le philosophe.
+— J'y tâcherai, dit Kin-Fo, et c'est commencer que de songer à mettre de
+l'ordre dans mes affaires. Il a couru de par le monde un petit papier
+qui a été pour moi la cause de trop de tribulations, pour qu'il me soit
+permis de le négliger. Qu'est décidément devenue cette lettre maudite
+que je t'avais remise, mon cher Wang? Est-elle vraiment sortie de tes]]
+mains? Je ne serais pas fâché de la revoir, car enfin, si elle allait se
+perdre encore! Lao-Shen, s'il en est encore détenteur, ne peut attacher
+aucune importance à ce chiffon de papier, et je trouverais fâcheux qu'il
+pût tomber entre des mains... peu délicates!»
+Sur ce, tout le monde se mit à rire.
+
+[Verne] -> 1.00000
+
+Sample:
+alarriereduroufflelaoupersonnenepouvaitlesentendremortsquiparlentditcraignesontpasmortsreponditfryunnomleuravaittoutrevelelenomdelaoshenainsidoncdescompagnonsdeceredoutabletaipingsetaientglissesabordpouvaitondouterquecefutaveclacompliciteducapitaineyindesonequipagedeschargeursduportdetakouquiavaientembarquelafunebrecargaisonnonapresavoiretedebarquesdunavireamericainquilesra
+
+Actual text:
+None
+[Zola] -> 0.99671
+
+Sample:
+nuquieutetonneunetrangernetaitpaspourlessurprendreentoutcasceaquoinesattendaientnilesunsnilesautrescefutlacommunicationqueleurfitlamphitryonaumomentouilsallaientenfinquitterlatablepourquoiceluicilesavaittraitescejourlailslapprirentalorslestassesetaientencorepleinesaumomentdeviderlasiennepourladernierefoislindifferentsaccoudantsurlatablelesyeuxperdusdanslevaguesexprimaencest
+
+Actual text:
+une fois l'an sa moisson de feuilles odorantes. Ce repas, dans lequel
+figuraient des nids d'hirondelle, des holothuries, des nerfs de baleine,
+des ailerons de requin, ils l'avaient savouré comme il le méritait pour
+la délicatesse de ses préparations; mais son menu, qui eût étonné un
+étranger, n'était pas pour les surprendre.
+[[En tout cas, ce à quoi ne s'attendaient ni les uns ni les autres, ce fut
+la communication que leur fit l'amphitryon, au moment où ils allaient
+enfin quitter la table. Pourquoi celui-ci les avait traités, ce jour-là,
+ils l'apprirent alors.
+Les tasses étaient encore pleines. Au moment de vider la sienne pour la
+dernière fois, l'indifférent, s'accoudant sur la table, les yeux perdus]]
+dans le vague, s'exprima en ces termes:
+«Mes amis, écoutez-moi sans rire. Le sort en est jeté. Je vais
+introduire dans mon existence un élément nouveau, qui en dissipera
+peut-être la monotonie! Sera-ce un bien, sera-ce un mal? l'avenir me
+l'apprendra. Ce dîner, auquel je vous ai conviés, est mon dîner d'adieu
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 0.99996
+
+Sample:
+ndrevousnemavezpascomprispasplusvousquerobespierrepasplusrobespierrequevousilnyadoncpasdhommedetaticiilfautdoncvousfaireepelerlapolitiqueilfautdoncvousmettrelespointssurlesicequejevousaiditvoulaitdirececivousvoustrompeztouslesdeuxledangernestnialondrescommelecroitrobespierreniaberlincommelecroitdantonilestaparisilestdanslabsencedunitedansledroitquachacundetirerdesoncoteacom
+
+Actual text:
+m'arrête, et Lecointe-Puyraveau propose à la Convention de me décréter fou.
+Ah ça! citoyen Danton, pourquoi m'avez-vous fait venir à votre
+conciliabule, si ce n'est pour avoir mon avis? Est-ce que je vous demandais
+d'en être? loin de là. Je n'ai aucun goût pour les tête-à-tête avec des
+contre-révolutionnaires tels que Robespierre et vous. Du reste, je devais
+[[m'y attendre, vous ne m'avez pas compris; pas plus vous que Robespierre,
+pas plus Robespierre que vous. Il n'y a donc pas d'homme, d'état ici? Il
+faut donc vous faire épeler la politique, il faut donc vous mettre les
+points sur les i? Ce que je vous ai dit voulait dire ceci: Vous vous
+trompez tous les deux. Le danger n'est ni à Londres, comme le croit
+Robespierre, ni à Berlin comme le croit Danton; il est à Paris. Il est dans]]
+l'absence d'unité, dans le droit qu'a chacun de tirer de son côté, à
+commencer par vous deux, dans la mise en poussière des esprits, dans
+l'anarchie des volontés...
+— L'anarchie! interrompit Danton, qui la fait, si ce n'est vous?
+Marat ne s'arrêta pas.
+
+[Hugo] -> 0.99998
+
+Sample:
+britesilsavaiententasselesbaquetslestombereauxlesbagagestouteslesfutaillesdelavieillehalleetimproviseunehautebarricadeavecdesclairesvoiesparoupassaientleurscarabinesparcestrousleurfusilladeetaitmeurtrieretoutcelasefitviteenunquartdheurelahalleeutunfrontimprenablececidevenaitgravepourgauvaincettehallebrusquementtransformeeencitadellecetaitlinattendulespaysansetaientlamassese
+
+Actual text:
+ne s'en servaient point; cela tenait à ce que, les officiers d'artillerie
+étant allés avec le marquis reconnaître le Mont-Dol, les gars ne savaient
+que faire des couleuvrines et des bâtardes; mais ils criblaient de balles
+les bleus qui les canonnaient. Les paysans ripostaient par la mousqueterie
+à la mitraille. C'étaient eux maintenant qui étaient abrités. Ils avaient
+[[entassé les baquets, les tombereaux, les bagages, toutes les futailles de
+la vieille halle, et improvisé une haute barricade avec des claires-voies
+par où passaient leurs carabines. Par ces trous leur fusillade était
+meurtrière. Tout cela se fit vite. En un quart d'heure la halle eut un
+front imprenable.
+Ceci devenait grave pour Gauvain. Cette halle brusquement transformée en]]
+citadelle, c'était l'inattendu. Les paysans étaient là, massés et solides.
+Gauvain avait réussi la surprise et manqué la déroute. Il avait mis pied à
+terre. Attentif, ayant son épée au poing sous ses bras croisés, debout dans
+la lueur d'une torche qui éclairait sa batterie, il regardait toute cette
+ombre.
+
+[Proust] -> 0.99515
+
+Sample:
+elaouvastujenesaispasarriveaufaitquiestujenesaispastunesaispasquituesnoussommesdesgensquinoussauvonsdequelpartiestujenesaispasestudesbleusestudesblancsavecquiestujesuisavecmesenfantsilyeutunepauselavivandiereditmoijenaipaseudenfantsjenaipaseuletempslesergentrecommencamaistesparentsvoyonsmadamemetsnousaufaitdetesparentsmoijemappelleradoubjesuissergentjesuisdelarueducherchemi
+
+Actual text:
+None
+[Verne] -> 1.00000
+
+Sample:
+etetuncrayonetecrivitsurlecarnetlechiffreilpoursuivitpilotequelleestlapremierevoileababordcestlexperimenteefregatedepremierrangcinquantedeuxcanonselleetaitenarmementabrestilyadeuxmoislecapitainemarquasursoncarnetlechiffrepiloterepritilquelleestladeuxiemevoileababordladryadefregatedepremierrangquarantecanonsdedixhuitelleaetedanslindeelleaunebellehistoiremilitaireetilecrivita
+
+Actual text:
+Le capitaine passa sa longue-vue au pilote.
+— Pilote, distinguez-vous bien le bâtiment de haut bord?
+— Oui, mon commandant, c'est, le vaisseau la Côte-d'Or.
+— Qu'ils ont débaptisé, dit le capitaine. C'était autrefois Les
+États-de-Bourgogne. Un navire neuf. Cent vingt-huit canons.
+[[Il tira de sa poche un carnet et un crayon, et écrivit sur le carnet le
+chiffre 128.
+Il poursuivit:
+— Pilote, quelle est la première voile à bâbord?
+— C'est l'Expérimentée.
+— Frégate de premier rang. Cinquante-deux canons. Elle était en armement à
+Brest il y a deux mois.
+Le capitaine marqua sur son carnet le chiffre 52.
+— Pilote, reprit-il, quelle est la deuxième voile à bâbord?
+— La Dryade.
+— Frégate de premier rang. Quarante canons de dix-huit. Elle a été dans
+
+[Zola] -> 1.00000
+
+Sample:
+ssesonenterraitlesmortsonpansaitlesblessesonavaitdemolilaretiradeondesencombraitdecadavresleschambresetlesescaliersonnettoyaitlelieuducarnageonbalayaitletasdorduresterribledelavictoirelessoldatsfaisaientaveclarapiditemilitairecequonpourraitappelerlemenagedelabataillefiniegauvainnevoyaitriendetoutcelaapeinejetaitilunregardatraverssareverieaupostedelabrechedoublesurlordredeci
+
+Actual text:
+républicaine, sobre d'ornements, désignait le commandant en chef. Il se mit
+à marcher dans ce pré sanglant où l'assaut avait commencé. Il était là
+seul. L'incendie continuait, désormais dédaigné; Radoub était près des
+enfants et de la mère, presque aussi maternel qu'elle; le châtelet du pont
+achevait de brûler, les sapeurs faisaient la part du feu, on creusait des
+[[fosses, on enterrait les morts, on pansait les blessés, on avait démoli la
+retirade, on désencombrait de cadavres les chambres et les escaliers, on
+nettoyait le lieu du carnage, on balayait le tas d'ordures terrible de la
+victoire, les soldats faisaient, avec la rapidité militaire, ce qu'on
+pourrait appeler le ménage de la bataille finie. Gauvain ne voyait rien de
+tout cela.]]
+A peine jetait-il un regard, à travers sa rêverie, au poste de la brèche
+doublé sur l'ordre de Cimourdain.
+Cette brèche, il la distinguait dans l'obscurité, à environ deux cents pas
+du coin de la prairie où il s'était comme réfugié. Il voyait cette
+ouverture noire. C'était par là que l'attaque avait commencé, il y avait
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 0.99999
+
+Sample:
+erelavieillessevientlecarnetnestpasoublielesdoruresensontfaneeslesfeuilletstiennentapeinesamaitressequiavieilliavecluiparaitlenaimerdavantageelleentourneencoresouventlespagesetsenivredesonlointainparfumdejeunessenestcepasunrolecharmantninonqueceluiducarnetdedansenestilpascommetoutepoesieincomprisdelafoulelucourammentdesseulsinitiesconfidentdessecretsdelafemmeillaccompagneda
+
+Actual text:
+volages qui sans doute sont allés enrichir d'autres carnets. La
+plupart de ses sujets lui restent fidèles; elle passe avec
+indifférence. Le petit livre rit de tout cela. Il connaît sa
+puissance; il doit recevoir les caresses d'une vie entière.
+La vieillesse vient, le carnet n'est pas oublié. Les dorures en sont
+[[fanées, les feuillets tiennent à peine. Sa maîtresse, qui a vieilli
+avec lui, paraît l'en aimer davantage. Elle en tourne encore souvent
+les pages et s'enivre de son lointain parfum de jeunesse.
+N'est-ce pas un rôle charmant, Ninon, que celui du carnet de danse?
+N'est-il pas, comme toute poésie, incompris de la foule, lu couramment
+des seuls initiés? Confident des secrets de la femme, il l'accompagne]]
+dans la vie, ainsi qu'un ange d'amour versant à pleine main les
+espérances et les souvenirs.
+Georgette sortait à peine du couvent. Elle avait encore cet âge
+heureux où le songe et la réalité se confondent; douce et passagère
+époque, l'esprit voit ce qu'il rêve et rêve ce qu'il voit. Comme tous
+
+[Hugo] -> 0.99992
+
+Sample:
+nflantsilvousfautabsolumentgarderquelquunaulieudegarderleroicontrelepeuplegardezjevousprielepeuplecontreleroiceseramieuxemployervosveillesetgagnerplushonnetementvotreargentlessoirsdetepourpeuquevousdesiriezmetreagreablesenvoyezmoivosfemmesavecdeseventailsousilpleutvotezmoiunearmeedeparapluiesmaisvosepeesaquoidiablevoulezvousquellesmeserventetmaintenantbonnenuitmessieurslesg
+
+Actual text:
+— Holà! manants, cria-t-il, pliez bagages, décampez au plus vite. Me
+croyez-vous assez sot pour imiter vos rois trembleurs, qui ferment dix
+à douze portes sur eux, en plantant une sentinelle à chacune? Je me
+garde moi-même, mes bons amis, et je n'aime pas à être regardé quand
+je dors; car ma nourrice m'a toujours dit que je n'étais pas beau en
+[[ronflant. S'il vous faut absolument garder quelqu'un, au lieu de
+garder le roi contre le peuple, gardez, je vous prie, le peuple contre
+le roi; ce sera mieux employer vos veilles et gagner plus honnêtement
+votre argent. Les soirs d'été, pour peu que vous désiriez m'être
+agréables, envoyez-moi vos femmes avec des éventails, ou, s'il pleut,
+votez-moi une armée de parapluies. Mais vos épées, à quoi diable]]
+voulez-vous qu'elles me servent? Et, maintenant, bonne nuit, messieurs
+les gardes du corps. Sans plus de zèle, capitaine et soldats se
+retirèrent, enchantés d'un prince si facile à servir. Alors nos amis,
+satisfaits d'être seuls, purent causer à l'aise des surprenantes
+aventures qui leur étaient arrivées depuis le matin. Je veux dire, tu
+
+[Proust] -> 0.99978
+
+Sample:
+uireponditellejesuisprimeverealorsmamieessuyezvoslarmesjevienspourvousepouserprimevereessuyaseslarmesetmettantlesmainsdanslesmainsdemedericelleleregardaenfacejenesuisquuneignoranteditelledoucementvoiladesyeuxmauvaisquipourtantnemefontpaspeurilyadelabontesousjenesaisquelletristerailleriedanscesyeuxlaavezvousbesoindemescaressespourdevenirmeilleurjenaibesoinreponditmedericjaic
+
+Actual text:
+Médéric se garda de répondre. La science du bien et du mal n'était pas
+faite pour cette enfant.
+— Dites-moi, demanda-t-il, n'êtes-vous pas l'aimable Primevère, reine
+du Royaume des Heureux?
+— Oui, répondit-elle, je suis Primevère.
+[[— Alors, ma mie, essuyez vos larmes. Je viens pour vous épouser.
+Primevère essuya ses larmes. Et mettant les mains dans les mains de
+Médéric, elle le regarda en face.
+— Je ne suis qu'une ignorante, dit-elle doucement. Voilà des yeux
+mauvais, qui pourtant ne me font pas peur. Il y a de la bonté, sous je
+ne sais quelle triste raillerie, dans ces yeux-là. Avez-vous besoin de]]
+mes caresses pour devenir meilleur?
+— J'en ai besoin, répondit Médéric. J'ai couru le monde et je suis
+las.
+— Le ciel est bon, reprit l'enfant. Il ne laisse pas chômer ma
+tendresse. Je vous épouserai, cher seigneur.
+
+[Verne] -> 0.99998
+
+Sample:
+longtempspossiblemangezetdigerezausoleilmonsieurreponditlemendiantjelevoisvousnetespasdecepaysvoussauriezquonymeurtparfaitementdefaimsansenfairelagageureicilesunsmangentlesautresnemangentpasonsetrouvedansluneoulautreclasseselonlehasarddelanaissancedailleurscestlaunetatdechosesaccepteilfautquevousveniezdeloinpourvousenetonnervoiladesinguliereshistoiresetcombienetesvousquinem
+
+Actual text:
+Les deux compagnons se regardèrent, stupéfaits de dette réponse, ne
+sachant s'ils devaient rire ou se fâcher.
+— Écoutez, bonhomme, reprit Médéric, nous n'aimons pas qu'on se moque
+de nous. Si vous avez fait gageure de vous laisser mourir de faim,
+gagnez tout à votre aise votre pari. Si, au contraire, vous désirez
+[[vivre le plus longtemps possible; mangez et digérez au soleil.
+— Monsieur, répondit le mendiant, je le vois, vous n'êtes pas de ce
+pays. Vous sauriez qu'on y meurt parfaitement de faim, sans en faire
+la gageure. Ici, les uns mangent, les autres ne mangent pas. On se
+trouve dans l'une ou l'autre classe, selon le hasard de la naissance.
+D'ailleurs, c'est là un état de choses accepté; il faut que vous]]
+veniez de loin pour vous en étonner.
+— Voilà de singulières histoires. Et combien êtes-vous qui ne mangez
+  pas?
+— Mais plusieurs centaines de mille.
+— Ah! mon frère Médéric, interrompit Sidoine, la rencontre me paraît
+
+[Zola] -> 0.99996
+
+Sample:
+ntouradelicatementlesrocherspuisilfitunlegereffortserenversantenarriereetserelevaserrantlefardeaucontresapoitrineillesoutintsursongenouattendantquemedericsedecidatcedernierhesitaitjelaferaisbienjeteralamermurmuraitilmaisuntelcaillouoccasionneraitpoursurunnouveaudelugejenepuisnonpluslafairemettrebrutalementaterreaurisquedecornerunevilleoudeuxlescultivateurspousseraientdebeau
+
+Actual text:
+ils l'auraient pesée, s'ils l'avaient voulu, à quelques kilogrammes
+près; et pas un, même le plus gros, n'a songé à la porter quelque
+part, où elle ne gênât plus. Prends la montagne, Sidoine, mon mignon.
+Je vais chercher dans quel lieu nous pourrions bien la poser sans
+malencontre.
+[[Sidoine ouvrit les bras. Il en entoura délicatement les rochers. Puis,
+il fit un léger effort, se renversant en arrière, et se releva,
+serrant le fardeau contre sa poitrine. Il le soutint sur son genou,
+attendant que Médéric se décidât. Ce dernier hésitait.
+— Je la ferais bien jeter à la mer, murmurait-il, mais un tel caillou
+occasionnerait pour sûr un nouveau déluge. Je ne puis non plus la]]
+faire mettre brutalement à terre, au risque d'écorner une ville ou
+deux. Les cultivateurs pousseraient de beaux cris, si j'encombrais un
+champ de navets ou de carottes. Remarque, Sidoine, mon mignon,
+l'embarras où je suis. Les hommes se sont partagé le sol d'une façon
+ridicule. On ne peut déranger une pauvre montagne sans écraser les
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+delempereurclorindequelimperatriceavaitegalementretenuevintcherchersonmariavecsonallurehardiedefemmelanceedanslescerclesdhommespolitiqueselletenditlamainaplusieursdecesmessieurstoussempresserentlaconversationchangeamaissamajestesemontrasigalantepourlajeunefemmeillaserrabientotdesipreslecouallongeloeilobliquequeleursexcellencesjugerentdiscretdesecarterpeuapeuquatrepuistroise
+
+Actual text:
+entêté:
+«Rien ne presse. J'attendrai. Dans dix ans, s'il le faut.» Après le
+déjeuner, qui dura à peine une demi-heure, les ministres passèrent dans
+un petit salon voisin, où le café fut servi. Ils restèrent encore là
+quelques instants, à s'entretenir, debout autour de l'empereur.
+[[Clorinde, que l'impératrice avait également retenue, vint chercher son
+mari, avec son allure hardie de femme lancée dans les cercles d'hommes
+politiques. Elle tendit la main à plusieurs de ces messieurs. Tous
+s'empressèrent, la conversation changea. Mais Sa Majesté se montra si
+galante pour la jeune femme, il la serra bientôt de si près, le cou
+allongé, l'oeil oblique, que Leurs Excellences jugèrent discret de]]
+s'écarter peu à peu.
+Quatre, puis trois encore sortirent sur la terrasse du château par une
+porte-fenêtre. Deux seulement restèrent dans le salon, pour sauvegarder
+les convenances.
+Le ministre d'État, plein d'obligeance, donnant un air affable à sa
+
+[Hugo] -> 0.99997
+
+Sample:
+dangersonlavaitarreteiletaitmortouijustementilestmortcestcelaquiestfacheuxrepritlesouverainlesjournauxhostilessesontemparesdelevenementilsleracontentdunefaconmysterieuseavecdesreticencesduneffetdeplorablejesuistreschagrindetoutcelamonsieurrougonilninsistapasilrestaquelquessecondeslacigarettecolleeauxlevresvousetesalledernierementdanslesdeuxsevrescontinuatilvousavezassisteau
+
+Actual text:
+«On me bat les oreilles d'une foule d'affaires. J'aime mieux en causer
+avec vous.... Qu'est-ce donc que ce notaire qui est mort à Niort, à la
+suite d'une arrestation? un M. Martineau, je crois?» Rougon donna
+tranquillement des détails. Ce Martineau était un homme très compromis,
+un républicain dont l'influence dans le département pouvait offrir de
+[[grands dangers. On l'avait arrêté. Il était mort.
+«Oui, justement, il est mort, c'est cela qui est fâcheux, reprit le
+souverain. Les journaux hostiles se sont emparés de l'événement, ils le
+racontent d'une façon mystérieuse, avec des réticences d'un effet
+déplorable.... Je suis très chagrin de tout cela, monsieur Rougon.» Il
+n'insista pas. Il resta quelques secondes, la cigarette collée aux]]
+lèvres.
+«Vous êtes allé dernièrement dans les Deux-Sèvres, continua-t-il, vous
+avez assisté à une solennité... Êtes-vous bien sûr de la solidité
+financière de M. Kahn?
+— Oh! absolument sûr!» s'écria Rougon.
+
+[Proust] -> 0.99999
+
+Sample:
+vaientdesrefletsduneclatsombrecommepresdesenflammerdesrangsentierstoutduncoupprenaientfeulegliseprofondesechauffaitdunluxeinouidefournaisealorsmmecorreurvitsavanceraumilieuduchoeurunaidedesceremoniesquicriatroisfoisfurieusementviveleprinceimperialviveleprinceimperialviveleprinceimperialetdanslimmenseacclamationdontlesvoutestremblerentmmecorreurapercutauborddelestradelempere
+
+Actual text:
+s'entassaient dans le reste de la nef, et que les dames, en haut, au
+bord des tribunes, étalaient les vives panachures de leurs étoffes
+claires. Une grande buée saignante flottait. Les têtes étagées au fond,
+à droite, à gauche, gardaient des tons roses de porcelaine peinte. Les
+costumes, le satin, la soie, le velours avaient des reflets d'un éclat
+[[sombre, comme près de s'enflammer. Des rangs entiers, tout d'un coup,
+prenaient feu. L'église profonde se chauffait d'un luxe inouï de
+fournaise.
+Alors, Mme Correur vit s'avancer, au milieu du choeur, un aide des
+cérémonies, qui cria trois fois, furieusement:
+«Vive le prince impérial! vive le prince impérial! vive le prince]]
+impérial!» Et, dans l'immense acclamation dont les voûtes tremblèrent,
+Mme Correur aperçut, au bord de l'estrade, l'empereur debout, dominant
+la foule. Il se détachait en noir sur le flamboiement d'or, que les
+évêques allumaient derrière lui. Il présentait au peuple le prince
+impérial, un paquet de dentelles blanches, qu'il tenait très haut, de
+
+[Verne] -> 0.99999
+
+Sample:
+etenosmonsieurlegeantjecherchaisuneideeacettereponsesidoinesassitsurleborddelarouteprevoyantdelonguesexplicationsuneideerepritilquelestcemetsmonsieurlegeantcontinualhommesansrepondrejesuispoetedenaissancevousnelignorezpaslamisereestmeredugeniejaidoncjetemaboursealarivieredepuiscetheureuxjourjelaisseauxsotsletristesoindechercherleurrepasmoiquinaiplusamoccuperdecedetailjecher
+
+Actual text:
+Merci, je ne puis manger. J'ai bien autre chose en tête. Enfin je
+viens de trouver ce que je cherchais depuis une heure.
+— Ça, dit Sidoine impatienté, que cherchiez-vous donc, monsieur
+l'affamé, si ce n'est un morceau de pain?
+— Bon! s'écria le pauvre diable, seconde trouvaille! Un géant en chair
+[[et en os. Monsieur le géant, je cherchais une idée.
+À cette réponse, Sidoine s'assit sur le bord de la route, prévoyant de
+longues explications.
+— Une idée! reprit-il, quel est ce mets?
+— Monsieur le géant, continua l'homme sans répondre, je suis poète de
+naissance. Vous ne l'ignorez pas, la misère est mère du génie. J'ai]]
+donc jeté ma bourse à la rivière. Depuis cet heureux jour, je laisse
+aux sots le triste soin de chercher leur repas. Moi, qui n'ai plus à
+m'occuper de ce détail, je cherche des idées le long des routes. Je
+mange le moins possible pour avoir le plus possible de génie. Ne
+perdez pas votre pitié à me plaindre; je n'ai vraiment faim que
+
+[Zola] -> 1.00000
+
+Sample:
+itpasdautreredingoteildutsecontenterdunvestonpuislorsquelafigurefutcouvertedelingesainsiquunemortesurlaquelleonatireledraptousdeuxsenallerentencourantlepoeleronflaitundegelemplissaitdeaulatelieroulesvieuxplatrespoussiereuxruisselaientdeboueruededouaiilnyavaitplusquelepetitjacqueslaisseengardechezlaconciergechristinelassedattendrevenaitdepartiraveclestroisautrestemoinscroyan
+
+Actual text:
+«Je la ferai couchée, que veux-tu!... Ah! ma pauvre bonne femme, j'avais
+eu tant de peine à la mettre debout, et je la trouvais si grande!».
+Mais, tout d'un coup, Claude s'inquiéta. Et son mariage?
+Il fallut que Mahoudeau changeât de vêtements. Comme il n'avait pas
+d'autre redingote, il dut se contenter d'un veston. Puis, lorsque la
+[[figure fut couverte de linges, ainsi qu'une morte sur laquelle on a tiré
+le drap, tous deux s'en allèrent en courant. Le poêle ronflait, un dégel
+emplissait d'eau l'atelier, où les vieux plâtres poussiéreux
+ruisselaient de boue.
+Rue de Douai, il n'y avait plus que le petit Jacques, laissé en garde
+chez la concierge. Christine, lasse d'attendre, venait de partir avec]]
+les trois autres témoins, croyant à un malentendu: peut-être Claude lui
+avait-il dit qu'il irait directement là-bas, en compagnie de Mahoudeau.
+Et ceux-ci se remirent vivement en marche, ne rattrapèrent la jeune
+femme et les camarades que rue Drouot, devant la mairie. On monta tous
+ensemble, on fut très mal reçu par l'huissier de service, à cause du
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+discoursspirituelsquisetiennentdanslemondesurlinconstancedeshommeselleneseplaignitpasmaissonattitudeequivalaitadesreprochestroisansapressonmariagecettefemmejeuneetjoliequipassaitsibrillantedanssonbrillantequipagequivivaitdansunespheredegloireetderichesseenvieedetantdegensinsouciantsetincapablesdapprecierjustementlessituationsdelaviefutenproieadeviolentschagrinssescouleurspa
+
+Actual text:
+douleur morne et silencieuse. Ces sentiments secrets mirent entre les
+deux époux un voile qui devait s'épaissir de jour en jour. Sans que son
+mari manquât d'égards envers elle, Augustine ne pouvait s'empêcher de
+trembler en le voyant réserver pour le monde les trésors d'esprit et de
+grâce qu'il venait jadis mettre à ses pieds. Bientôt, elle interpréta
+[[fatalement les discours spirituels qui se tiennent dans le monde sur
+l'inconstance des hommes. Elle ne se plaignit pas, mais son attitude
+équivalait à des reproches. Trois ans après son mariage, cette femme
+jeune et jolie qui passait si brillante dans son brillant équipage, qui
+vivait dans une sphère de gloire et de richesse enviée de tant de gens
+insouciants et incapables d'apprécier justement les situations de la]]
+vie, fut en proie à de violents chagrins. Ses couleurs pâlirent. Elle
+réfléchit, elle compara ; puis, le malheur lui déroula les premiers
+textes de l'expérience. Elle résolut de rester courageusement dans le
+cercle de ses devoirs, en espérant que cette conduite généreuse lui
+ferait recouvrer tôt ou tard l'amour de son mari ; mais il n'en fut pas
+
+[Hugo] -> 0.99563
+
+Sample:
+availexcessifdesignesouslenomdinventaireonremuaittouslesballotsetlonverifiaitlaunagedespiecespoursassurerdelavaleurexacteducoupononexaminaitsoigneusementlacarteappendueaupaquetpourreconnaitreenqueltempslesdrapsavaienteteachetesonfixaitleprixactueltoujoursdeboutsonaunealamainlaplumederriereloreillemonsieurguillaumeressemblaitauncapitainecommandantlamanoeuvresavoixaiguepassan
+
+Actual text:
+vaisseau si tranquille qui naviguait sur la mer orageuse de la place de
+Paris, sous le pavillon du Chat-qui-pelote, était la proie d'une de ces
+tempêtes qu'on pourrait nommer équinoxiales à cause de leur retour
+périodique. Depuis quinze jours, les quatre hommes de l'équipage,
+madame Guillaume et mademoiselle Virginie s'adonnaient à ce travail
+[[excessif désigné sous le nom d'inventaire. On remuait tous les ballots
+et l'on vérifiait l'aunage des pièces pour s'assurer de la valeur
+exacte du coupon. On examinait soigneusement la carte appendue au
+paquet pour reconnaître en quel temps les draps avaient été achetés. On
+fixait le prix actuel. Toujours debout, son aune à la main, la plume
+derrière l'oreille, monsieur Guillaume ressemblait à un capitaine]]
+commandant la manoeuvre. Sa voix aiguë, passant par un judas pour
+interroger la profondeur des écoutilles du magasin d'en bas, faisait
+entendre ces barbares locutions du commerce, qui ne s'exprime que par
+énigmes : —  Combien d'H-N-Z ? —  Enlevé. —  Que reste-t-il de Q-X ? — 
+Deux aunes. —  Quel prix ? —  Cinq-cinq-trois. —  Portez à trois A tout
+
+[Proust] -> 0.99967
+
+Sample:
+naitseuleduprixdesboursesenfiletquelleavaitsoindemplirdecotonpourfairevaloirleursdessinsajourdesbretellesfortementconditionneesoudespairesdebasdesoiebienlourdesquelquefoismaisrarementcepremierministreetaitadmisapartagerlesplaisirsdelafamillesoitquandelleallaitalacampagnesoitquandapresdesmoisdattenteellesedecidaitauserdesondroitademanderenlouantunelogeunepiecealaquelleparisn
+
+Actual text:
+deux gros paroissiens reliés en maroquin noir. Le second commis n'avait
+pas d'appointements. Quant à celui que douze ans de persévérance et de
+discrétion initiaient aux secrets de la maison, il recevait huit cents
+francs en récompense de ses labeurs. A certaines fêtes de famille, il
+était gratifié de quelques cadeaux auxquels la main sèche et ridée de
+[[madame Guillaume donnait seule du prix : des bourses en filet, qu'elle
+avait soin d'emplir de coton pour faire valoir leurs dessins à jour ;
+des bretelles fortement conditionnées, ou des paires de bas de soie
+bien lourdes. Quelquefois, mais rarement, ce premier ministre était
+admis à partager les plaisirs de la famille soit quand elle allait à la
+campagne, soit quand après des mois d'attente elle se décidait à user]]
+de son droit à demander, en louant une loge, une pièce à laquelle Paris
+ne pensait plus. Quant aux deux autres commis, la barrière de respect
+qui séparait jadis un maître drapier de ses apprentis était placée si
+fortement entre eux et le vieux négociant, qu'il leur eût été plus
+facile de voler une pièce de drap que de déranger cette auguste
+
+[Verne] -> 0.99913
+
+Sample:
+nssonenthousiasmeilallaitselancerhorsducabinetquandilsesentitarreteparunbrasdeferetsonpatronstupefaitleramenavigoureusementdevantluiquestcequefaitdoncaugustinedanscetteaffairelademandaguillaumedontlavoixglacasurlechamplemalheureuxjosephlebasnestcepasellequejaimeditlecommisenbalbutiantdeconcertedesondefautdeperspicaciteguillaumeserassitetmitsatetepointuedanssesdeuxmainspourr
+
+Actual text:
+—  Eh bien ! garçon, dit le marchand attendri, tu es plus heureux que
+tu ne crois, sarpejeu, car elle t'aime. Je le sais, moi !
+Et il cligna ses deux petits yeux verts en regardant son commis.
+—  Mademoiselle Augustine, mademoiselle Augustine ! s'écria Joseph
+Lebas dans son enthousiasme.
+[[Il allait s'élancer hors du cabinet, quand il se sentit arrêté par un
+bras de fer, et son patron stupéfait le ramena vigoureusement devant
+lui.
+—  Qu'est-ce que fait donc Augustine dans cette affaire-là ?
+demanda Guillaume dont la voix glaça sur-le-champ le malheureux Joseph
+Lebas.]]
+—  N'est-ce pas elle... que... j'aime ? dit le commis en balbutiant.
+Déconcerté de son défaut de perspicacité, Guillaume se rassit et mit sa
+tête pointue dans ses deux mains pour réfléchir à la bizarre position
+dans laquelle il se trouvait. Joseph Lebas honteux et au désespoir
+resta debout.
+
+[Zola] -> 0.95880
+
+Sample:
+setsenarraientencorelesvieilleshistoiresduquartiersaintdenisadeuxheureslepereguillaumeallaitdonneruncoupdoeilaletablissementduchatquipeloteenrevenantilsarretaitatouteslesboutiquesautrefoissesrivalesetdontlesjeunesproprietairesesperaiententrainerlevieuxnegociantdansquelqueescompteaventureuxqueselonsacoutumeilnerefusaitjamaispositivementdeuxbonschevauxnormandsmouraientdegrasf
+
+Actual text:
+se racontaient l'un à l'autre tous les désastres du Maximum, leurs
+anciennes acquisitions de draps, la manière dont ils avaient évité les
+banqueroutes, et surtout cette célèbre faillite Lecocq, la bataille de
+Marengo du père Guillaume. Puis, quand ils avaient épuisé les vieux
+procès, ils récapitulaient les additions de leurs inventaires les plus
+[[productifs, et se narraient encore les vieilles histoires du quartier
+Saint-Denis. A deux heures, le père Guillaume allait donner un coup
+d'oeil à l'établissement du Chat-qui-pelote. En revenant il s'arrêtait
+à toutes les boutiques, autrefois ses rivales, et dont les jeunes
+propriétaires espéraient entraîner le vieux négociant dans quelque
+escompte aventureux, que, selon sa coutume, il ne refusait jamais]]
+positivement. Deux bons chevaux normands mouraient de gras-fondu dans
+l'écurie de l'hôtel ; madame Guillaume ne s'en servait que pour se
+faire traîner tous les dimanches à la grand'messe de sa paroisse. Trois
+fois par semaine ce respectable couple tenait table ouverte. Grâce à
+l'influence de son gendre Sommervieux, le père Guillaume avait été
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 1.00000
+
+Sample:
+discoursspirituelsquisetiennentdanslemondesurlinconstancedeshommeselleneseplaignitpasmaissonattitudeequivalaitadesreprochestroisansapressonmariagecettefemmejeuneetjoliequipassaitsibrillantedanssonbrillantequipagequivivaitdansunespheredegloireetderichesseenvieedetantdegensinsouciantsetincapablesdapprecierjustementlessituationsdelaviefutenproieadeviolentschagrinssescouleurspa
+
+Actual text:
+douleur morne et silencieuse. Ces sentiments secrets mirent entre les
+deux époux un voile qui devait s'épaissir de jour en jour. Sans que son
+mari manquât d'égards envers elle, Augustine ne pouvait s'empêcher de
+trembler en le voyant réserver pour le monde les trésors d'esprit et de
+grâce qu'il venait jadis mettre à ses pieds. Bientôt, elle interpréta
+[[fatalement les discours spirituels qui se tiennent dans le monde sur
+l'inconstance des hommes. Elle ne se plaignit pas, mais son attitude
+équivalait à des reproches. Trois ans après son mariage, cette femme
+jeune et jolie qui passait si brillante dans son brillant équipage, qui
+vivait dans une sphère de gloire et de richesse enviée de tant de gens
+insouciants et incapables d'apprécier justement les situations de la]]
+vie, fut en proie à de violents chagrins. Ses couleurs pâlirent. Elle
+réfléchit, elle compara ; puis, le malheur lui déroula les premiers
+textes de l'expérience. Elle résolut de rester courageusement dans le
+cercle de ses devoirs, en espérant que cette conduite généreuse lui
+ferait recouvrer tôt ou tard l'amour de son mari ; mais il n'en fut pas
+
+[Hugo] -> 0.99563
+
+Sample:
+availexcessifdesignesouslenomdinventaireonremuaittouslesballotsetlonverifiaitlaunagedespiecespoursassurerdelavaleurexacteducoupononexaminaitsoigneusementlacarteappendueaupaquetpourreconnaitreenqueltempslesdrapsavaienteteachetesonfixaitleprixactueltoujoursdeboutsonaunealamainlaplumederriereloreillemonsieurguillaumeressemblaitauncapitainecommandantlamanoeuvresavoixaiguepassan
+
+Actual text:
+vaisseau si tranquille qui naviguait sur la mer orageuse de la place de
+Paris, sous le pavillon du Chat-qui-pelote, était la proie d'une de ces
+tempêtes qu'on pourrait nommer équinoxiales à cause de leur retour
+périodique. Depuis quinze jours, les quatre hommes de l'équipage,
+madame Guillaume et mademoiselle Virginie s'adonnaient à ce travail
+[[excessif désigné sous le nom d'inventaire. On remuait tous les ballots
+et l'on vérifiait l'aunage des pièces pour s'assurer de la valeur
+exacte du coupon. On examinait soigneusement la carte appendue au
+paquet pour reconnaître en quel temps les draps avaient été achetés. On
+fixait le prix actuel. Toujours debout, son aune à la main, la plume
+derrière l'oreille, monsieur Guillaume ressemblait à un capitaine]]
+commandant la manoeuvre. Sa voix aiguë, passant par un judas pour
+interroger la profondeur des écoutilles du magasin d'en bas, faisait
+entendre ces barbares locutions du commerce, qui ne s'exprime que par
+énigmes : —  Combien d'H-N-Z ? —  Enlevé. —  Que reste-t-il de Q-X ? — 
+Deux aunes. —  Quel prix ? —  Cinq-cinq-trois. —  Portez à trois A tout
+
+[Proust] -> 0.99967
+
+Sample:
+naitseuleduprixdesboursesenfiletquelleavaitsoindemplirdecotonpourfairevaloirleursdessinsajourdesbretellesfortementconditionneesoudespairesdebasdesoiebienlourdesquelquefoismaisrarementcepremierministreetaitadmisapartagerlesplaisirsdelafamillesoitquandelleallaitalacampagnesoitquandapresdesmoisdattenteellesedecidaitauserdesondroitademanderenlouantunelogeunepiecealaquelleparisn
+
+Actual text:
+deux gros paroissiens reliés en maroquin noir. Le second commis n'avait
+pas d'appointements. Quant à celui que douze ans de persévérance et de
+discrétion initiaient aux secrets de la maison, il recevait huit cents
+francs en récompense de ses labeurs. A certaines fêtes de famille, il
+était gratifié de quelques cadeaux auxquels la main sèche et ridée de
+[[madame Guillaume donnait seule du prix : des bourses en filet, qu'elle
+avait soin d'emplir de coton pour faire valoir leurs dessins à jour ;
+des bretelles fortement conditionnées, ou des paires de bas de soie
+bien lourdes. Quelquefois, mais rarement, ce premier ministre était
+admis à partager les plaisirs de la famille soit quand elle allait à la
+campagne, soit quand après des mois d'attente elle se décidait à user]]
+de son droit à demander, en louant une loge, une pièce à laquelle Paris
+ne pensait plus. Quant aux deux autres commis, la barrière de respect
+qui séparait jadis un maître drapier de ses apprentis était placée si
+fortement entre eux et le vieux négociant, qu'il leur eût été plus
+facile de voler une pièce de drap que de déranger cette auguste
+
+[Verne] -> 0.99913
+
+Sample:
+nssonenthousiasmeilallaitselancerhorsducabinetquandilsesentitarreteparunbrasdeferetsonpatronstupefaitleramenavigoureusementdevantluiquestcequefaitdoncaugustinedanscetteaffairelademandaguillaumedontlavoixglacasurlechamplemalheureuxjosephlebasnestcepasellequejaimeditlecommisenbalbutiantdeconcertedesondefautdeperspicaciteguillaumeserassitetmitsatetepointuedanssesdeuxmainspourr
+
+Actual text:
+—  Eh bien ! garçon, dit le marchand attendri, tu es plus heureux que
+tu ne crois, sarpejeu, car elle t'aime. Je le sais, moi !
+Et il cligna ses deux petits yeux verts en regardant son commis.
+—  Mademoiselle Augustine, mademoiselle Augustine ! s'écria Joseph
+Lebas dans son enthousiasme.
+[[Il allait s'élancer hors du cabinet, quand il se sentit arrêté par un
+bras de fer, et son patron stupéfait le ramena vigoureusement devant
+lui.
+—  Qu'est-ce que fait donc Augustine dans cette affaire-là ?
+demanda Guillaume dont la voix glaça sur-le-champ le malheureux Joseph
+Lebas.]]
+—  N'est-ce pas elle... que... j'aime ? dit le commis en balbutiant.
+Déconcerté de son défaut de perspicacité, Guillaume se rassit et mit sa
+tête pointue dans ses deux mains pour réfléchir à la bizarre position
+dans laquelle il se trouvait. Joseph Lebas honteux et au désespoir
+resta debout.
+
+[Zola] -> 0.95880
+
+Sample:
+setsenarraientencorelesvieilleshistoiresduquartiersaintdenisadeuxheureslepereguillaumeallaitdonneruncoupdoeilaletablissementduchatquipeloteenrevenantilsarretaitatouteslesboutiquesautrefoissesrivalesetdontlesjeunesproprietairesesperaiententrainerlevieuxnegociantdansquelqueescompteaventureuxqueselonsacoutumeilnerefusaitjamaispositivementdeuxbonschevauxnormandsmouraientdegrasf
+
+Actual text:
+se racontaient l'un à l'autre tous les désastres du Maximum, leurs
+anciennes acquisitions de draps, la manière dont ils avaient évité les
+banqueroutes, et surtout cette célèbre faillite Lecocq, la bataille de
+Marengo du père Guillaume. Puis, quand ils avaient épuisé les vieux
+procès, ils récapitulaient les additions de leurs inventaires les plus
+[[productifs, et se narraient encore les vieilles histoires du quartier
+Saint-Denis. A deux heures, le père Guillaume allait donner un coup
+d'oeil à l'établissement du Chat-qui-pelote. En revenant il s'arrêtait
+à toutes les boutiques, autrefois ses rivales, et dont les jeunes
+propriétaires espéraient entraîner le vieux négociant dans quelque
+escompte aventureux, que, selon sa coutume, il ne refusait jamais]]
+positivement. Deux bons chevaux normands mouraient de gras-fondu dans
+l'écurie de l'hôtel ; madame Guillaume ne s'en servait que pour se
+faire traîner tous les dimanches à la grand'messe de sa paroisse. Trois
+fois par semaine ce respectable couple tenait table ouverte. Grâce à
+l'influence de son gendre Sommervieux, le père Guillaume avait été
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 0.99998
+
+Sample:
+prisebeaucoupplusamusantequedeliredanslalivraisonnouvelledunerevuelemotdelenigmeproposeedanslaprecedentelivraisonlesgrandsrestaurantslescasinoslestortillardssontlemuseedesfamillesdecesenigmessocialesprincessenousvousauronsmanqueeamainevillevouspermettezquenousprenionsplacedansvotrecompartimentmaiscommentdoncfitlaprincessequienentendantcottardluiparlerlevaseulementalorsdesur
+
+Actual text:
+claire aussitôt quand je sus son nom, comme quand, après avoir peiné sur
+une devinette, on apprend enfin le mot qui rend clair tout ce qui était
+resté obscur et qui, pour les personnes, est le nom. Apprendre le
+surlendemain quelle était la personne à côté de qui on a voyagé dans le
+train sans parvenir à trouver son rang social est une surprise beaucoup
+[[plus amusante que de lire dans la livraison nouvelle d'une revue le
+mot de l'énigme proposée dans la précédente livraison. Les grands
+restaurants, les casinos, les «tortillards» sont le musée des familles
+de ces énigmes sociales. «Princesse, nous vous aurons manquée à
+Maineville! Vous permettez que nous prenions place dans votre
+compartiment?— Mais comment donc», fit la princesse qui, en entendant]]
+Cottard lui parler, leva seulement alors de sur sa revue des yeux qui,
+comme ceux de M. de Charlus, quoique plus doux, voyaient très bien
+les personnes de la présence de qui elle faisait semblant de ne pas
+s'apercevoir. Cottard, réfléchissant à ce que le fait d'être invité avec
+les Cambremer était pour moi une recommandation suffisante, prit, au
+
+[Hugo] -> 0.99969
+
+Sample:
+uifaisaientsigneilscouraientalorsapresluiensoufflantenquoiilsluiressemblaientmaisdifferaientdeluiencequilslerattrapaientatoutevitessealorsqueluinusaitquedunesagelenteurainsihermenonvilleharambouvilleincarvillenemevoquaientmemepluslesfarouchesgrandeursdelaconquetenormandenoncontentsdesetreentierementdepouillesdelatristesseinexplicableoujelesavaisvusbaignerjadisdanslhumidited
+
+Actual text:
+cadre de vie mondaine comme un autre, en somme, que ces arrêts du petit
+chemin de fer. Lui-même semblait avoir conscience de ce rôle qui lui
+était dévolu, avait contracté quelque amabilité humaine; patient,
+d'un caractère docile, il attendait aussi longtemps qu'on voulait les
+retardataires, et, même une fois parti, s'arrêtait pour recueillir ceux
+[[qui lui faisaient signe; ils couraient alors après lui en soufflant,
+en quoi ils lui ressemblaient, mais différaient de lui en ce qu'ils
+le rattrapaient à toute vitesse, alors que lui n'usait que d'une sage
+lenteur. Ainsi Hermenonville, Harambouville, Incarville, ne m'évoquaient
+même plus les farouches grandeurs de la conquête normande, non contents
+de s'être entièrement dépouillés de la tristesse inexplicable où je les]]
+avais vus baigner jadis dans l'humidité du soir. Doncières! Pour moi,
+même après l'avoir connu et m'être éveillé de mon rêve, combien il était
+resté longtemps, dans ce nom, des rues agréablement glaciales, des
+vitrines éclairées, des succulentes volailles! Doncières! Maintenant
+ce n'était plus que la station où montait Morel: Égleville
+
+[Proust] -> 1.00000
+
+Sample:
+dinnombrablescottardaientvecueblouispardesfemmestitreesdontilssimaginaientquelesalonetaitlecentredeselegancesaristocratiquesetquinetaientmemepascequetaientmmedevilleparisisetsesamiesnoncellesdontlamitieaetelorgueildetantdegenssiceuxcipubliaientleursmemoiresetydonnaientlesnomsdecesfemmesetdecellesquellesrecevaientpersonnepasplusmmedecambremerquemmedeguermantesnepourraitlesid
+
+Actual text:
+passé sa vie au milieu des grands de la terre qui n'étaient pour lui
+que d'ennuyeux parents ou de fastidieuses connaissances, parce qu'une
+habitude contractée dès le berceau les avait dépouillés à ses yeux de
+tout prestige. Mais, en revanche, il a suffi que celui-ci vînt, par
+quelque hasard, s'ajouter aux personnes les plus obscures, pour que
+[[d'innombrables Cottard aient vécu éblouis par des femmes titrées
+dont ils s'imaginaient que le salon était le centre des élégances
+aristocratiques, et qui n'étaient même pas ce qu'étaient Mme de
+Villeparisis et ses amies ; non, celles dont
+l'amitié a été l'orgueil de tant de gens, si ceux-ci publiaient leurs
+mémoires et y donnaient les noms de ces femmes et de celles qu'elles]]
+recevaient, personne, pas plus Mme de Cambremer que Mme de Guermantes,
+ne pourrait les identifier. Mais qu'importe! Un Cottard a ainsi sa
+marquise, laquelle est pour lui la «baronne», comme, dans Marivaux, la
+baronne dont on ne dit jamais le nom et dont on n'a même pas l'idée
+qu'elle en a jamais eu un. Cottard croit d'autant plus y trouver résumée
+
+[Verne] -> 0.85190
+
+Sample:
+olementdemodelescarleuraircontemplatifetleurpresencesolitairequandleshumainssontrentrescontribuaientaleurmanierealapuissanteimpressiondereposquedegagelesoiretquelquessemainesplustardlatranspositionnefutpasmoinsagreablequandlautomnesavancantlesjoursdevinrenttoutafaitcourtsetquilfallutfairecevoyagedanslanuitsijavaisetefaireuntourdanslapresmidiilfallaitrentrershabillerauplusta
+
+Actual text:
+tandis que d'autres, s'intéressant plus à l'humanité, tournaient leur
+attention vers nos voitures. Seul un peintre qui avait dressé son
+chevalet sur une mince éminence travaillait à essayer de rendre ce grand
+calme, cette lumière apaisée. Peut-être les vaches allaient-elles
+lui servir inconsciemment et bénévolement de modèles, car leur air
+[[contemplatif et leur présence solitaire, quand les humains sont rentrés,
+contribuaient, à leur manière, à la puissante impression de repos que
+dégage le soir. Et quelques semaines plus tard, la transposition ne fut
+pas moins agréable quand, l'automne s'avançant, les jours devinrent tout
+à fait courts et qu'il fallut faire ce voyage dans la nuit. Si j'avais
+été faire un tour dans l'après-midi, il fallait rentrer s'habiller au]]
+plus tard à cinq heures, où maintenant le soleil rond et rouge était
+déjà descendu au milieu de la glace oblique, jadis détestée, et, comme
+quelque feu grégeois, incendiait la mer dans les vitres de toutes mes
+bibliothèques. Quelque geste incantateur ayant suscité, pendant que je
+passais mon smoking, le moi alerte et frivole qui était le mien quand
+
+[Zola] -> 0.99967
+
+Sample:
+equemployaitcancancottardquienconnaissaitlefortetlefaibleparcequillesavaitlaborieusementapprisesdemontraitaumarquislequelconfessaitsabetisequellesnevoulaientriendirepourquoibetecommechoucroyezvousqueleschouxsoientplusbetesquautrechosevousditesrepetertrentesixfoislamemechosepourquoiparticulierementtrentesixpourquoidormircommeunpieupourquoitonnerredebrestpourquoifairelesquatr
+
+Actual text:
+que je chasse dans la forêt de Chantepie et jamais je n'avais réfléchi à
+ce que son nom voulait dire.» Mme de Cambremer jeta un regard sévère à
+son mari; elle n'aurait pas voulu qu'il s'humiliât ainsi devant Brichot.
+Elle fut plus mécontente encore quand, à chaque expression «toute faite»
+qu'employait Cancan, Cottard, qui en connaissait le fort et le faible
+[[parce qu'il les avait laborieusement apprises, démontrait au marquis,
+lequel confessait sa bêtise, qu'elles ne voulaient rien dire: «Pourquoi:
+bête comme chou? Croyez-vous que les choux soient plus bêtes qu'autre
+chose? Vous dites: répéter trente-six fois la même chose. Pourquoi
+particulièrement trente-six? Pourquoi: dormir comme un pieu? Pourquoi:
+Tonnerre de Brest? Pourquoi: faire les quatre cents coups?» Mais alors]]
+la défense de M. de Cambremer était prise par Brichot, qui expliquait
+l'origine de chaque locution. Mais Mme de Cambremer était surtout
+occupée à examiner les changements que les Verdurin avaient apportés
+à la Raspelière, afin de pouvoir en critiquer certains, en importer à
+Féterne d'autres, ou peut-être les mêmes. «Je me demande ce que c'est

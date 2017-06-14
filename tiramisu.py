@@ -86,7 +86,7 @@ def network_launch():
 	kill_child_processes(os.getpid())
 
 	data_vector = load_data_test(hyperparameters)
-	print("Loading done")
+	print("[*] Loading done")
 
 	with open("static/resources/json/probabilities.json", "r") as file:
 		values = json.loads(file.read())
@@ -106,7 +106,7 @@ def network_launch():
 
 def testNetwork(args, data_vector):
 	model = load_model(join(args.save_dir, 'last.hdf5'))
-	print('\n Successfully loaded model from ' + join(args.save_dir, 'last.hdf5') + '\n')
+	print('\n[*] Successfully loaded model from ' + join(args.save_dir, 'last.hdf5') + '\n')
 	print_statistics(args, model, data_vector, log_dir, hyperparameters)
 
 def run_network(data_vector):
@@ -141,7 +141,7 @@ if __name__ == '__main__':
 	else:
 		log_dir += '/1'
 
-	print('Logging directory : ' + log_dir)
+	print('[*] Logging directory : ' + log_dir)
 
 
 	### Training ###
@@ -156,7 +156,7 @@ if __name__ == '__main__':
 		else:
 			x_train, y_train, x_test, y_test = load_text_from_save()
 
-		print("Loading done")
+		print("\r[*] Loading done")
 
 		sampleToImage(x_train[-2], ratio=3)
 		sys.exit()
@@ -167,8 +167,8 @@ if __name__ == '__main__':
 		
 		### Printing confusion matrix ###
 		model = load_model(join(args.save_dir, 'last.hdf5'))
-		print('\n Successfully loaded model from ' + join(args.save_dir, 'last.hdf5') + '\n')
-		print("\n[Reports creation]")
+		print('\n[*] Successfully loaded model from ' + join(args.save_dir, 'last.hdf5') + '\n')
+		print("\n[*] Reports creation")
 		print_confusion_matrix(args, model, x_test, y_test, log_dir, hyperparameters)
 
 

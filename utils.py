@@ -49,9 +49,12 @@ def own_to_categorical(data, nb_author):
 		data_tmp[element] = 1
 		data_new.append(data_tmp)
 
-	assert len(data_new) == len(data), "Error during categorical transformation: length of returned array different from original array."
+	assert len(data_new) == len(data), "[!] Error during categorical transformation: length of returned array different from original array."
 
 	return numpy.array(data_new)
+
+def createAuthorJSON(authors):
+	
 
 def getSampleContext(text, hyperparameters):
 
@@ -129,7 +132,7 @@ def load_data_test(hyperparameters):
 	# Text --| test_*.txt
 	# If more than one file is submitted, the program will exit
 
-	print('\n[Loading Test data]')
+	print('\n[*] Loading test data')
 
 	directory = "Test"
 
@@ -143,7 +146,7 @@ def load_data_test(hyperparameters):
 	example_vector = []
 
 	list_files = listdir(directory)
-	assert not all('*.txt' in file for file in list_files), "There must be only one file to test. %d file(s) found." %len(list_files)
+	assert not all('*.txt' in file for file in list_files), "[!] There must be only one file to test. %d file(s) found." %len(list_files)
 
 	for file in listdir(directory):
 		if 'test_' in file:
@@ -179,7 +182,7 @@ def load_data_text(hyperparameters):
 	# DEBUG ONLY - Remove it if unecessary
 	# fixed_author_names = ['Proust', 'Balzac', 'Verne', 'Hugo', 'Zola']
 
-	print('\n[Loading data]')
+	print('\n[*] Loading data')
 
 	directory = "Text"
 
@@ -206,7 +209,6 @@ def load_data_text(hyperparameters):
 				i = 1
 				with open(join(directory, subdir, 'Result', file), "r") as text:
 					target = count_author
-					print('target_number: ', target, 'target name: ', hyperparameters['target_names'][target])
 					example_vector = []
 					for line in text:
 						line = ''.join((c for c in unicodedata.normalize('NFD', line) if unicodedata.category(c) != 'Mn'))
@@ -220,7 +222,7 @@ def load_data_text(hyperparameters):
 									example_vector = []
 								i+=1
 
-	assert hyperparameters['target_names'] == init_auth_names([]), 'Two set of authors found.'
+	assert hyperparameters['target_names'] == init_auth_names([]), '[!] Two set of authors found.'
 	# assert hyperparameters['target_names'] == fixed_author_names, '(!!!) New target names different from fixed_author_names (!!!)'
 
 	random.shuffle(data_vector)
@@ -241,8 +243,6 @@ def load_data_text(hyperparameters):
 
 	train_set_y = keras.utils.np_utils.to_categorical(train_set_y, get_auth_number())
 	test_set_y = keras.utils.np_utils.to_categorical(test_set_y, get_auth_number())
-
-	print('\n[Loading data : done]')
 
 	with gzip.GzipFile(join('Text', 'formatted_data.pkl.gzip'), 'wb') as pkl_file:
 	  pickle.dump((train_set_x, train_set_y, test_set_x, test_set_y), pkl_file)

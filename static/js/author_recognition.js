@@ -96,22 +96,22 @@ function onClickInit() {
 	            analysis: "launched"
 	        }
 	    });
-	if(data_full[1]['state'] != 'running' || first_time == true) {
-		var text_read = readTextFile("../static/resources/text_processed.txt");
 
-		first_time = false;
+	if(data_full[1]['state'] == '' || data_full[1]['state'] == 'stop') {
+
+		var text_read = readTextFile("../static/resources/text_processed.txt");
 
 		document.getElementById("image_holder").style.visibility='hidden';
 		document.getElementById("text_author").style.visibility='hidden';
 		document.getElementById("date_name_auth").style.visibility='hidden';
 		document.getElementById("percentage_author").style.visibility='hidden';
 
-		wrapper(text_read);
+		wrapper(text_read, true);
 	}
 
 }
 
-function wrapper(text_read)
+function wrapper(text_read, restart=false)
 {
 
     $.ajax({
@@ -122,7 +122,7 @@ function wrapper(text_read)
 		  }
 		});
 
-    if(data_full[1]["state"] != "stop") {
+    if(data_full[1]["state"] != "stop" || restart == true) {
 
 	scroller(text_read);
 	RadarChart(".radarChart", data_full[0], radarChartOptions);
@@ -146,7 +146,7 @@ function wrapper(text_read)
 		document.getElementById("date_name_auth").innerHTML = '<b>' + authors_info[index_auth]['author'] + '</b><br>' + authors_info[index_auth]['date'];
 		document.getElementById("text_author").innerHTML = authors_info[index_auth]['info'];
 
-		document.getElementById("percentage_author").innerHTML = max_percentage * 100 + '%';
+		document.getElementById("percentage_author").innerHTML = (max_percentage * 100).toFixed(2) + '%';
 
 		document.getElementById("image_holder").style.visibility='visible';
 		document.getElementById("text_author").style.visibility='visible';
@@ -172,8 +172,4 @@ function scroller(text){
 
 	document.getElementById("text_processed").innerHTML = text;
 	document.getElementById('text_processed').scrollTop = document.getElementById('text_processed').scrollHeight;
-		// if(document.getElementById('text_processed').scrollTop < 1575){
-		// 	document.getElementById('text_processed').scrollTop += 50;
-		// 	scrolldelay = setTimeout(function(){scroller(text);},1000);
-		// }
 }

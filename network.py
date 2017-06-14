@@ -241,7 +241,7 @@ def train_model(args, x_train, y_train, x_test, y_test, hyperparameters, log_dir
 
 	signal.signal(signal.SIGINT, signal_handler)
 
-	print('\n[Building Model]')
+	print('\n[*] Building Model')
 	model = Sequential()
 
 	random_uni = RandomNormal(mean = 0.0, stddev = 0.05, seed = None)
@@ -318,10 +318,10 @@ def train_model(args, x_train, y_train, x_test, y_test, hyperparameters, log_dir
 
 			if(self.last_val_loss > curr_val_loss):
 				K.set_value(model.optimizer.lr, lr*1.1)
-				print("lr changed from {:.6f} to {:.6f}".format(lr, K.get_value(model.optimizer.lr)))
+				print("[*] lr changed from {:.6f} to {:.6f}".format(lr, K.get_value(model.optimizer.lr)))
 			elif curr_val_loss - self.last_val_loss > 0.001:
 				K.set_value(model.optimizer.lr, lr*0.7)
-				print("lr changed from {:.6f} to {:.6f}".format(lr, K.get_value(model.optimizer.lr)))
+				print("[*] lr changed from {:.6f} to {:.6f}".format(lr, K.get_value(model.optimizer.lr)))
 
 			self.last_val_loss = curr_val_loss
 			return
@@ -331,7 +331,7 @@ def train_model(args, x_train, y_train, x_test, y_test, hyperparameters, log_dir
 		if epoch%epoch_decay == 0 and epoch != 0:
 			lr = K.get_value(model.optimizer.lr)
 			K.set_value(model.optimizer.lr, lr*decay_rate)
-			print("lr changed to {}".format(lr*decay_rate)) 
+			print("[*] lr changed to {}".format(lr*decay_rate)) 
 		return K.get_value(model.optimizer.lr)
 
 	checkpointer = ModelCheckpoint(filepath=log_dir + '/model.hdf5', verbose=1, save_best_only=True, monitor='val_categorical_accuracy')

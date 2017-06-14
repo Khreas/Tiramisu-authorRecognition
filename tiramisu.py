@@ -2,7 +2,7 @@
 
 # Import from files in the same directory
 from network import train_model, print_confusion_matrix, print_statistics
-from utils import load_text_from_save, load_data_test, load_data_text, sample_to_image
+from utils import load_text_from_save, load_data_test, load_data_text, prepare_text
 
 # Import packages. A bare `pip3 install foo` should do the trick
 import logging
@@ -35,6 +35,7 @@ parser.add_argument('--save_dir', type=str, default='./save', help='Directory in
 parser.add_argument('--reports_dir', type=str, default='logs', help='Directory in which the reports are located. Default "logs" means that they should be saved only with the logs.')
 parser.add_argument('--newdata', help='Boolean indicating if we load the data from text files directly', action="store_true")
 parser.add_argument('--showbest', help='Show the reports related to the best model obtained so far', action="store_true")
+parser.add_argument('--clean_text', help='Option indicating whether the program should build the texts or not', action="store_true")
 parser.add_argument('-m', type=str, default='', help='Message indicating the purpose of the training. It will be stored in the report file')
 
 
@@ -85,6 +86,9 @@ def network_launch():
 
 	kill_child_processes(os.getpid())
 
+	if args.clean_text:
+		prepare_text('test')
+
 	data_vector = load_data_test(hyperparameters)
 	print("[*] Loading done")
 
@@ -98,7 +102,7 @@ def network_launch():
 	with open("static/resources/json/probabilities.json", "w") as file:
 		file.write(json.dumps(values))
 
-	shutil.copy(join("Test", [f for f in listdir("Test") if '.txt' in f][0]), "static/resources/text_processed.txt")
+	shutil.copy(join("test", [f for f in listdir("test") if '.txt' in f][0]), "static/resources/text_processed.txt")
 	run_network(data_vector)
 	return "Network launched"
 
@@ -149,7 +153,10 @@ if __name__ == '__main__':
 
 		### New data ###
 
-		if args.newdata == True:
+		if args.clean_text == True:
+			prepare_text('train')
+
+		if args.newdata == True or args.clean_text == True:
 			x_train, y_train, x_test, y_test = load_data_text(hyperparameters)
 
 		### Old data ###

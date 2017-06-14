@@ -13,12 +13,13 @@ import collections
 import operator
 
 from PIL import Image
-from os.path import isfile, join
-from os import listdir
+from os.path import isfile, isdir, join
+from os import listdir, remove
+from clean_text import concatenate_files, clean_text
 
 # Returns the number of author found in the directory "Text"
 def get_auth_number():
-	directory = "Text"
+	directory = "train"
 	count = 0
 	for subdir in next(os.walk(directory))[1]:
 		if len(listdir(join(directory, subdir))) > 0:
@@ -28,8 +29,8 @@ def get_auth_number():
 # Returns a sorted list
 def init_auth_names(target):
 	if target != None and target == []:
-		for subdir in next(os.walk("Text"))[1]:
-			if listdir(join("Text", subdir)):
+		for subdir in next(os.walk(join("train")))[1]:
+			if listdir(join(join("train"), subdir)):
 				target.append(subdir)
 	target.sort()
 	return target
@@ -53,6 +54,33 @@ def own_to_categorical(data, nb_author):
 
 	return numpy.array(data_new)
 
+def prepare_text(type):
+
+	print("[*] Concatenation started\n")
+
+	if type.lower() == 'train':
+		inpath = "train"
+
+		dirs = (file for file in listdir(inpath) if isdir(join(inpath, file)))
+
+		for directory in dirs:
+			print(directory)
+			concatenate_files(join(inpath, directory), join(inpath, directory, 'Result', 'input_' + directory.lower() + '_tmp.txt'))
+			clean_text(	join(inpath, directory, 'Result', 'input_' + directory.lower() + '_tmp.txt'), 
+						join(inpath, directory, 'Result', 'input_' + directory.lower() + '.txt'),
+						zip_files=False )
+			remove(join(inpath, directory, 'Result', 'input_' + directory.lower() + '_tmp.txt'))
+
+	elif type.lower() == 'test':
+		inpath = "test"
+		filename = "test_author"
+
+		concatenate_files(inpath, join(inpath, 'Result', filename + '_tmp.txt'))
+		clean_text(join(inpath, 'Result', filename + '_tmp.txt'), join(inpath, 'Result', filename + '.txt'), zip_files=False)
+		remove(join(inpath, 'Result', filename + '_tmp.txt'))
+
+
+	print("\n[*] Concatenation ended")
 
 def get_sample_context(text, hyperparameters):
 
@@ -64,7 +92,7 @@ def get_sample_context(text, hyperparameters):
 	translator = str.maketrans('', '', string.punctuation)
 
 	# Initialization
-	inputDirectory = 'Test'
+	inputDirectory = 'test/Result'
 
 	file_list = [join(inputDirectory, f) for f in listdir(inputDirectory) if isfile(join(inputDirectory, f)) and '.txt' in f]
 	split_value = 30
@@ -112,14 +140,14 @@ def get_sample_context(text, hyperparameters):
 
 def load_text_from_save():
 
-	with gzip.GzipFile(join('Text', 'formatted_data.pkl.gzip'), 'rb') as pkl_file:
+	with gzip.GzipFile(join('train', 'formatted_data_train.pkl.gzip'), 'rb') as pkl_file:
 	  x_train, y_train, x_test, y_test = (pickle.load(pkl_file))
 
 	return [x_train, y_train, x_test, y_test]
 
 def load_test_from_save():
 
-	with gzip.GzipFile(join('Test', 'formatted_data.pkl.gzip'), 'rb') as pkl_file:
+	with gzip.GzipFile(join('test', 'formatted_data_test.pkl.gzip'), 'rb') as pkl_file:
 	  data_vector = (pickle.load(pkl_file))
 
 	return data_vector
@@ -132,7 +160,7 @@ def load_data_test(hyperparameters):
 
 	print('\n[*] Loading test data')
 
-	directory = "Test"
+	directory = "test/Result"
 
 	data_vector = []
 	train_set_x = []
@@ -165,7 +193,7 @@ def load_data_test(hyperparameters):
 
 	data_vector = keras.preprocessing.sequence.pad_sequences(data_vector)
 
-	with gzip.GzipFile(join('Test', 'formatted_data.pkl.gzip'), 'wb') as pkl_file:
+	with gzip.GzipFile(join('test', 'formatted_data_test.pkl.gzip'), 'wb') as pkl_file:
 	  pickle.dump(data_vector, pkl_file)
 
 	return data_vector
@@ -177,12 +205,9 @@ def load_data_text(hyperparameters):
 	#		| Author2 --| Result --| input_*.txt
 	#		| Author3 --| Result --| input_*.txt
 
-	# DEBUG ONLY - Remove it if unecessary
-	# fixed_author_names = ['Proust', 'Balzac', 'Verne', 'Hugo', 'Zola']
-
 	print('\n[*] Loading data')
 
-	directory = "Text"
+	directory = "train"
 
 	data_vector = []
 	train_set_x = []
@@ -242,7 +267,7 @@ def load_data_text(hyperparameters):
 	train_set_y = keras.utils.np_utils.to_categorical(train_set_y, get_auth_number())
 	test_set_y = keras.utils.np_utils.to_categorical(test_set_y, get_auth_number())
 
-	with gzip.GzipFile(join('Text', 'formatted_data.pkl.gzip'), 'wb') as pkl_file:
+	with gzip.GzipFile(join('train', 'formatted_data_train.pkl.gzip'), 'wb') as pkl_file:
 	  pickle.dump((train_set_x, train_set_y, test_set_x, test_set_y), pkl_file)
 
 

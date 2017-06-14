@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from utils import get_auth_number, init_auth_names, dataToJSON, hotToString, getSampleContext
+from utils import get_auth_number, init_auth_names, data_to_JSON, hot_to_string, get_sample_context
 
 from keras.preprocessing import sequence
 from keras.models import Sequential
@@ -55,7 +55,7 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 
 	len_data = len(data)
 
-	def predictAndGetBestWorstBatch(matrices):
+	def predict_best_worst_batch(matrices):
 
 		# In order: sentence, author_predicted, accuracy
 		best = ['', '', 0]
@@ -84,7 +84,7 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 			sys.stdout.flush()
 			y_pred.append(b_pred)
 
-			data = dataToJSON(b_proba_pred, hyperparameters['target_names'], "running", idx, len_data)
+			data = data_to_JSON(b_proba_pred, hyperparameters['target_names'], "running", idx, len_data)
 
 			with open('./static/resources/json/probabilities.json', 'w') as outfile:
 				json.dump(data, outfile)
@@ -92,11 +92,11 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 			for index_auth, author in enumerate(hyperparameters['target_names']):
 
 				if b_proba_pred[index_auth] > best_batches[index_auth][2]:
-					best_batches[index_auth][0], best_batches[index_auth][1] = hotToString(hyperparameters, element, index_auth)
+					best_batches[index_auth][0], best_batches[index_auth][1] = hot_to_string(hyperparameters, element, index_auth)
 					best_batches[index_auth][2] = b_proba_pred[index_auth]
 
 				if b_proba_pred[index_auth] < worst_batches[index_auth][2]:
-					worst_batches[index_auth][0], worst_batches[index_auth][1] = hotToString(hyperparameters, element, index_auth)
+					worst_batches[index_auth][0], worst_batches[index_auth][1] = hot_to_string(hyperparameters, element, index_auth)
 					worst_batches[index_auth][2] = b_proba_pred[index_auth]
 
 		sys.stdout.write("\n")
@@ -105,7 +105,7 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 	# Initialization of the names of the authors
 	hyperparameters['target_names'] = init_auth_names(hyperparameters['target_names'])
 
-	best, worst, y_pred = predictAndGetBestWorstBatch(data)
+	best, worst, y_pred = predict_best_worst_batch(data)
 	y_pred = numpy.array(y_pred)
 	print(y_pred)
 
@@ -114,7 +114,7 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 		analysisFile.write("\n\nTrue author : " + author)
 		analysisFile.write("\n\nHighest probability found per author:\n")
 		for element in best:
-			element.append(getSampleContext(element[0], hyperparameters))
+			element.append(get_sample_context(element[0], hyperparameters))
 			analysisFile.write("\n[" + element[1] + "] -> {:.5f}".format(element[2]))
 			analysisFile.write("\n\nSample:\n")
 			analysisFile.write(element[0])
@@ -129,7 +129,7 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 		analysisFile.write("\n\nTrue author : " + author)
 		analysisFile.write("\n\nLowest probability found per author:\n")
 		for element in worst:
-			element.append(getSampleContext(element[0], hyperparameters))
+			element.append(get_sample_context(element[0], hyperparameters))
 			analysisFile.write("\n[" + element[1] + "] -> {:.5f}".format(element[2]))
 			analysisFile.write("\n\nSample:\n")
 			analysisFile.write(element[0])
@@ -149,7 +149,7 @@ def print_statistics(args, model, data, save_dir, hyperparameters, author='Unkno
 		+ " with a probability of " + str(round(max(global_probabilities) * 100, 2)) + "%.")
 
 	with open('./static/resources/json/probabilities.json', 'w') as outfile:
-		json.dump(dataToJSON(global_probabilities, hyperparameters['target_names'], "stop", len_data, len_data), outfile)
+		json.dump(data_to_JSON(global_probabilities, hyperparameters['target_names'], "stop", len_data, len_data), outfile)
 
 def print_confusion_matrix(args, model, X_test, Y_test, save_dir, hyperparameters):
 

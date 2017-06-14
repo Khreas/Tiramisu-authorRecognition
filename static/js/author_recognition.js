@@ -127,7 +127,7 @@ function wrapper(text_read, restart=false)
 	scroller(text_read);
 	RadarChart(".radarChart", data_full[0], radarChartOptions);
 
-	wrapperRefresh = setTimeout(function(){wrapper(text_read)}, 100);
+	wrapperRefresh = setTimeout(function(){wrapper(text_read)}, 500);
 
 	} else {
 		

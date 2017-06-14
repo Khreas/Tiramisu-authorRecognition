@@ -1,1 +1,1 @@
-[[[{"value": 0.1571, "axis": "Balzac"}, {"value": 0.026, "axis": "Hugo"}, {"value": 0.7845, "axis": "Proust"}, {"value": 0.0008, "axis": "Verne"}, {"value": 0.0316, "axis": "Zola"}]], {"state": "stop", "max_len": 1267, "current_index": 1267, "predicted author": 2.0}]
+[[[{"axis": "Balzac", "value": 0.1571}, {"axis": "Hugo", "value": 0.026}, {"axis": "Proust", "value": 0.7845}, {"axis": "Verne", "value": 0.0008}, {"axis": "Zola", "value": 0.0316}]], {"state": "stop", "max_len": 1267, "predicted author": 2.0, "current_index": 1267}]

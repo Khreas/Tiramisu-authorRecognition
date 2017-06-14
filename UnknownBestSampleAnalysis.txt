@@ -1,0 +1,120 @@
+------------------------------------------------
+
+True author : Unknown
+
+Highest probability found per author:
+
+[Balzac] -> 0.99998
+
+Sample:
+prisebeaucoupplusamusantequedeliredanslalivraisonnouvelledunerevuelemotdelenigmeproposeedanslaprecedentelivraisonlesgrandsrestaurantslescasinoslestortillardssontlemuseedesfamillesdecesenigmessocialesprincessenousvousauronsmanqueeamainevillevouspermettezquenousprenionsplacedansvotrecompartimentmaiscommentdoncfitlaprincessequienentendantcottardluiparlerlevaseulementalorsdesur
+
+Actual text:
+claire aussitôt quand je sus son nom, comme quand, après avoir peiné sur
+une devinette, on apprend enfin le mot qui rend clair tout ce qui était
+resté obscur et qui, pour les personnes, est le nom. Apprendre le
+surlendemain quelle était la personne à côté de qui on a voyagé dans le
+train sans parvenir à trouver son rang social est une surprise beaucoup
+[[plus amusante que de lire dans la livraison nouvelle d'une revue le
+mot de l'énigme proposée dans la précédente livraison. Les grands
+restaurants, les casinos, les «tortillards» sont le musée des familles
+de ces énigmes sociales. «Princesse, nous vous aurons manquée à
+Maineville! Vous permettez que nous prenions place dans votre
+compartiment?— Mais comment donc», fit la princesse qui, en entendant]]
+Cottard lui parler, leva seulement alors de sur sa revue des yeux qui,
+comme ceux de M. de Charlus, quoique plus doux, voyaient très bien
+les personnes de la présence de qui elle faisait semblant de ne pas
+s'apercevoir. Cottard, réfléchissant à ce que le fait d'être invité avec
+les Cambremer était pour moi une recommandation suffisante, prit, au
+
+[Hugo] -> 0.99969
+
+Sample:
+uifaisaientsigneilscouraientalorsapresluiensoufflantenquoiilsluiressemblaientmaisdifferaientdeluiencequilslerattrapaientatoutevitessealorsqueluinusaitquedunesagelenteurainsihermenonvilleharambouvilleincarvillenemevoquaientmemepluslesfarouchesgrandeursdelaconquetenormandenoncontentsdesetreentierementdepouillesdelatristesseinexplicableoujelesavaisvusbaignerjadisdanslhumidited
+
+Actual text:
+cadre de vie mondaine comme un autre, en somme, que ces arrêts du petit
+chemin de fer. Lui-même semblait avoir conscience de ce rôle qui lui
+était dévolu, avait contracté quelque amabilité humaine; patient,
+d'un caractère docile, il attendait aussi longtemps qu'on voulait les
+retardataires, et, même une fois parti, s'arrêtait pour recueillir ceux
+[[qui lui faisaient signe; ils couraient alors après lui en soufflant,
+en quoi ils lui ressemblaient, mais différaient de lui en ce qu'ils
+le rattrapaient à toute vitesse, alors que lui n'usait que d'une sage
+lenteur. Ainsi Hermenonville, Harambouville, Incarville, ne m'évoquaient
+même plus les farouches grandeurs de la conquête normande, non contents
+de s'être entièrement dépouillés de la tristesse inexplicable où je les]]
+avais vus baigner jadis dans l'humidité du soir. Doncières! Pour moi,
+même après l'avoir connu et m'être éveillé de mon rêve, combien il était
+resté longtemps, dans ce nom, des rues agréablement glaciales, des
+vitrines éclairées, des succulentes volailles! Doncières! Maintenant
+ce n'était plus que la station où montait Morel: Égleville
+
+[Proust] -> 1.00000
+
+Sample:
+dinnombrablescottardaientvecueblouispardesfemmestitreesdontilssimaginaientquelesalonetaitlecentredeselegancesaristocratiquesetquinetaientmemepascequetaientmmedevilleparisisetsesamiesnoncellesdontlamitieaetelorgueildetantdegenssiceuxcipubliaientleursmemoiresetydonnaientlesnomsdecesfemmesetdecellesquellesrecevaientpersonnepasplusmmedecambremerquemmedeguermantesnepourraitlesid
+
+Actual text:
+passé sa vie au milieu des grands de la terre qui n'étaient pour lui
+que d'ennuyeux parents ou de fastidieuses connaissances, parce qu'une
+habitude contractée dès le berceau les avait dépouillés à ses yeux de
+tout prestige. Mais, en revanche, il a suffi que celui-ci vînt, par
+quelque hasard, s'ajouter aux personnes les plus obscures, pour que
+[[d'innombrables Cottard aient vécu éblouis par des femmes titrées
+dont ils s'imaginaient que le salon était le centre des élégances
+aristocratiques, et qui n'étaient même pas ce qu'étaient Mme de
+Villeparisis et ses amies ; non, celles dont
+l'amitié a été l'orgueil de tant de gens, si ceux-ci publiaient leurs
+mémoires et y donnaient les noms de ces femmes et de celles qu'elles]]
+recevaient, personne, pas plus Mme de Cambremer que Mme de Guermantes,
+ne pourrait les identifier. Mais qu'importe! Un Cottard a ainsi sa
+marquise, laquelle est pour lui la «baronne», comme, dans Marivaux, la
+baronne dont on ne dit jamais le nom et dont on n'a même pas l'idée
+qu'elle en a jamais eu un. Cottard croit d'autant plus y trouver résumée
+
+[Verne] -> 0.85190
+
+Sample:
+olementdemodelescarleuraircontemplatifetleurpresencesolitairequandleshumainssontrentrescontribuaientaleurmanierealapuissanteimpressiondereposquedegagelesoiretquelquessemainesplustardlatranspositionnefutpasmoinsagreablequandlautomnesavancantlesjoursdevinrenttoutafaitcourtsetquilfallutfairecevoyagedanslanuitsijavaisetefaireuntourdanslapresmidiilfallaitrentrershabillerauplusta
+
+Actual text:
+tandis que d'autres, s'intéressant plus à l'humanité, tournaient leur
+attention vers nos voitures. Seul un peintre qui avait dressé son
+chevalet sur une mince éminence travaillait à essayer de rendre ce grand
+calme, cette lumière apaisée. Peut-être les vaches allaient-elles
+lui servir inconsciemment et bénévolement de modèles, car leur air
+[[contemplatif et leur présence solitaire, quand les humains sont rentrés,
+contribuaient, à leur manière, à la puissante impression de repos que
+dégage le soir. Et quelques semaines plus tard, la transposition ne fut
+pas moins agréable quand, l'automne s'avançant, les jours devinrent tout
+à fait courts et qu'il fallut faire ce voyage dans la nuit. Si j'avais
+été faire un tour dans l'après-midi, il fallait rentrer s'habiller au]]
+plus tard à cinq heures, où maintenant le soleil rond et rouge était
+déjà descendu au milieu de la glace oblique, jadis détestée, et, comme
+quelque feu grégeois, incendiait la mer dans les vitres de toutes mes
+bibliothèques. Quelque geste incantateur ayant suscité, pendant que je
+passais mon smoking, le moi alerte et frivole qui était le mien quand
+
+[Zola] -> 0.99967
+
+Sample:
+equemployaitcancancottardquienconnaissaitlefortetlefaibleparcequillesavaitlaborieusementapprisesdemontraitaumarquislequelconfessaitsabetisequellesnevoulaientriendirepourquoibetecommechoucroyezvousqueleschouxsoientplusbetesquautrechosevousditesrepetertrentesixfoislamemechosepourquoiparticulierementtrentesixpourquoidormircommeunpieupourquoitonnerredebrestpourquoifairelesquatr
+
+Actual text:
+que je chasse dans la forêt de Chantepie et jamais je n'avais réfléchi à
+ce que son nom voulait dire.» Mme de Cambremer jeta un regard sévère à
+son mari; elle n'aurait pas voulu qu'il s'humiliât ainsi devant Brichot.
+Elle fut plus mécontente encore quand, à chaque expression «toute faite»
+qu'employait Cancan, Cottard, qui en connaissait le fort et le faible
+[[parce qu'il les avait laborieusement apprises, démontrait au marquis,
+lequel confessait sa bêtise, qu'elles ne voulaient rien dire: «Pourquoi:
+bête comme chou? Croyez-vous que les choux soient plus bêtes qu'autre
+chose? Vous dites: répéter trente-six fois la même chose. Pourquoi
+particulièrement trente-six? Pourquoi: dormir comme un pieu? Pourquoi:
+Tonnerre de Brest? Pourquoi: faire les quatre cents coups?» Mais alors]]
+la défense de M. de Cambremer était prise par Brichot, qui expliquait
+l'origine de chaque locution. Mais Mme de Cambremer était surtout
+occupée à examiner les changements que les Verdurin avaient apportés
+à la Raspelière, afin de pouvoir en critiquer certains, en importer à
+Féterne d'autres, ou peut-être les mêmes. «Je me demande ce que c'est

@@ -34,7 +34,7 @@ def init_auth_names(target):
 	target.sort()
 	return target
 
-def dataToJSON(prediction, authors, state, idx, max_len):
+def data_to_JSON(prediction, authors, state, idx, max_len):
 	data = []
 	for i in range(len(authors)):
 		data.append({"axis": authors[i], "value": round(float(prediction[i]),4)})
@@ -53,10 +53,8 @@ def own_to_categorical(data, nb_author):
 
 	return numpy.array(data_new)
 
-def createAuthorJSON(authors):
-	
 
-def getSampleContext(text, hyperparameters):
+def get_sample_context(text, hyperparameters):
 
 	# Text preprocessing
 	text = ''.join((c for c in unicodedata.normalize('NFD', text) if unicodedata.category(c) != 'Mn'))
@@ -253,7 +251,7 @@ def load_data_text(hyperparameters):
 	return rval
 
 # Convert a one-hot encoded sentence to a readable sentence. Same goes for the author if given.
-def hotToString(hyperparameters, matrix=None, author=None):
+def hot_to_string(hyperparameters, matrix=None, author=None):
 
 	if matrix != None:
 		sentence = ''
@@ -270,7 +268,7 @@ def hotToString(hyperparameters, matrix=None, author=None):
 
 # Convert a sample to an image
 # The darker the most used
-def sampleToImage(sample, ratio=1):
+def sample_to_image(sample, ratio=1):
 	size = (len(sample[0]), len(sample))
 	real_picture = []
 	list_sample = []

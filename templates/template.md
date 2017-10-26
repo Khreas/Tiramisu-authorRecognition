@@ -2,15 +2,15 @@
 
 ## Tâches réalisées
 
-	* Tâche 1
-	* Tâche 2
-	* Tâche 3
+	- Tâche 1
+	- Tâche 2
+	- Tâche 3
 
 ## Problèmes rencontrés
 
-	* Problème 1
-		* Sous-problème
-	* Problème 2
+	- Problème 1
+		- Sous-problème
+	- Problème 2
 
 ou
 
@@ -38,10 +38,11 @@ etc.		  | Contenu
 
 ## Questions à poser
 
-	Question identifiée
-	> Explication plus détaillée de la question
-	Question 2 identifiée
-	> Explication plus détaillée de la question
+	> Question identifiée
+	>> Explication plus détaillée de la question
+	
+	> Question 2 identifiée
+	>> Explication plus détaillée de la question
 
 ## Annexes
 

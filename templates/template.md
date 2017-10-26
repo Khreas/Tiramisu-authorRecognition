@@ -2,15 +2,15 @@
 
 ## Tâches réalisées
 
-	- Tâche 1
-	- Tâche 2
-	- Tâche 3
+	* Tâche 1
+	* Tâche 2
+	* Tâche 3
 
 ## Problèmes rencontrés
 
-	- Problème 1
-		- Sous-problème
-	- Problème 2
+	* Problème 1
+		* Sous-problème
+	* Problème 2
 
 ou
 
